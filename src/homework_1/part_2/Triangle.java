@@ -50,5 +50,11 @@ public class Triangle {
         return sideSizes;
     }
     
+    public  double triangleSquare() {
+        double p = (this.getA() + this.getB() + this.getC()) / 2;
+        double square = Math.sqrt(p * (p - this.getA()) * (p - this.getB()) * (p - this.getC()));
+        return square;
+
+    }
 
 }
