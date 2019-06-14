@@ -24,15 +24,15 @@ public class Main {
         blackboard.addShape(firstShape);
         blackboard.addShape(secondShape);
         blackboard.addShape(thirdShape);
-        blackboard.info();      
+        System.out.println(blackboard.toString());      
         
-        System.out.println("***After remote***");
+        System.out.println("\n***After remote***");
         blackboard.removeShape(secondShape);
-        blackboard.info();
+        System.out.println(blackboard.toString());
         
-        System.out.println("***After remote***");        
+        System.out.println("\n***After remote***");        
         blackboard.removeShape(thirdShape);
-        blackboard.info();
+        System.out.println(blackboard.toString());
            
         
     }

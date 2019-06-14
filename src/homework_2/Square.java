@@ -1,12 +1,17 @@
 package homework_2;
 
+import java.util.Objects;
+
 /**
  *
  * @author YBolshakova
  */
 public class Square extends Shape {
 
-    private Point a, b, c, d;
+    private Point a;
+    private Point b;
+    private Point c;
+    private Point d;
 
     private double sideA;
     private double sideB;
@@ -130,5 +135,43 @@ public class Square extends Shape {
         double sideSide = Math.sqrt(Math.pow((b.getX() - a.getX()), 2) + Math.pow((b.getY() - a.getY()), 2));
         return sideSide;
     }
+
+    @Override
+    public int hashCode() {
+        int hash = 7;
+        hash = 41 * hash + Objects.hashCode(this.a);
+        hash = 41 * hash + Objects.hashCode(this.b);
+        hash = 41 * hash + Objects.hashCode(this.d);
+        return hash;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
+            return true;
+        }
+        if (obj == null) {
+            return false;
+        }
+        if (getClass() != obj.getClass()) {
+            return false;
+        }
+        final Square other = (Square) obj;
+        if (!Objects.equals(this.a, other.a)) {
+            return false;
+        }
+        if (!Objects.equals(this.b, other.b)) {
+            return false;
+        }
+        if (!Objects.equals(this.c, other.c)) {
+            return false;
+        }
+        if (!Objects.equals(this.d, other.d)) {
+            return false;
+        }
+        return true;
+    }
+    
+    
 
 }

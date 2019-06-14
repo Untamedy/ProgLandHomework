@@ -6,7 +6,7 @@ package homework_2;
  */
 public class Blackboard {
 
-    public Shape[] blackboard = new Shape[4];
+    private Shape[] blackboard = new Shape[4];
 
     public Blackboard() {
 
@@ -14,7 +14,7 @@ public class Blackboard {
 
     public Shape[] getBlackboard() {
         return blackboard;
-    }
+    }    
 
     public void setBlackboard(Shape[] blackboard) {
         this.blackboard = blackboard;
@@ -38,17 +38,19 @@ public class Blackboard {
         }
     }
 
-    public void info() {
+    @Override
+    public String toString() {
+        StringBuilder result = new StringBuilder();
         double sumArea = 0;
         for (int i = 0; i < blackboard.length; i++) {
             if (blackboard[i] != null) {
                 sumArea += blackboard[i].getArea();
-                System.out.println("This shape is " + blackboard[i].getClass().getName() + ","
+                result.append("\n This shape is " + blackboard[i].getClass().getName() + ","
                         + "Perimeter =" + blackboard[i].getPerimeter() + ","
                         + "Area = " + blackboard[i].getArea());
             }
         }
-        System.out.println( "Area sum = "  + sumArea);
+        return result + "\n Area sum = "  + sumArea;
     }
 
 }
