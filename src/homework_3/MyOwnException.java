@@ -4,7 +4,7 @@ package homework_3;
  *
  * @author YBolshakova
  */
-public class MyOwnException extends ArrayIndexOutOfBoundsException{
+public class MyOwnException extends RuntimeException{
     
     @Override
     public String getMessage(){

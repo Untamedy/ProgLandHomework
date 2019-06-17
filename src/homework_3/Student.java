@@ -1,8 +1,5 @@
 package homework_3;
 
-import java.util.Objects;
-import java.util.logging.Logger;
-
 /**
  *
  * @author YBolshakova
@@ -11,7 +8,6 @@ public class Student extends Human {
 
     private String name;
     private String lastname;
-    private int id;
 
     public Student() {
 
@@ -21,14 +17,6 @@ public class Student extends Human {
         super(height, weight, age);
         this.name = name;
         this.lastname = lastname;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -51,7 +39,5 @@ public class Student extends Human {
     public String info() {
         return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + "}";
     }
-
-    
 
 }

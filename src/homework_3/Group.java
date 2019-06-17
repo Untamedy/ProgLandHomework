@@ -2,6 +2,7 @@ package homework_3;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -11,6 +12,7 @@ import java.util.logging.Logger;
 public class Group {
 
     Logger logger = Logger.getLogger(Group.class.getName());
+    
     private int id = 1;
 
     private Student[] students = new Student[10];
@@ -32,7 +34,7 @@ public class Group {
                 if (students[i] == null) {
                     students[i] = student;
                     id++;
-                    logger.info("Student " + student.getLastname() + " added successful");
+                    logger.log(Level.INFO, "Student {0} added successful", student.getLastname());
                     break;
                 }
             }
@@ -46,17 +48,16 @@ public class Group {
         for (int i = 0; i < students.length; i++) {
             if (null != students[i] && students[i].equals(student)) {
                 students[i] = null;
-                logger.info("Student " + student.getLastname() + " removed successful");
+                logger.log(Level.INFO, "Student {0} removed successful", student.getLastname());
             }
         }
     }
 
     public Student findStudent(String lastname) {
-        for (int i = 0; i < students.length; i++) {
-            if (null != students[i] && students[i].getLastname().equals(lastname)) {
-                return students[i];
+        for (Student student : students) {
+            if (null != student && student.getLastname().equals(lastname)) {
+                return student;
             }
-
         }
         throw new RuntimeException("Student " + lastname + " is not found");
     }
@@ -79,9 +80,9 @@ public class Group {
             }
         });
         StringBuilder studentsAfterSort = new StringBuilder();
-        for (int i = 0; i < students.length; i++) {
-            if (students[i] != null) {
-                studentsAfterSort.append("\n" + students[i].info());
+        for (Student student : students) {
+            if (student != null) {
+                studentsAfterSort.append("\n").append(student.info());
             }
         }
         return studentsAfterSort.toString();

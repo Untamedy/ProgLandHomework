@@ -34,7 +34,8 @@ public class Main {
         System.out.println("\n Finded student: " + groupOfStudents.findStudent("Allard").info());
 
         groupOfStudents.removeStudent(s3);
-        System.out.println("***Afre remote***\n" + groupOfStudents.toString());
+        System.out.println("***Afre remote***\n" + groupOfStudents.toString());        
+        
     }
 
 }
