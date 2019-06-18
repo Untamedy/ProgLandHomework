@@ -8,7 +8,8 @@ import java.util.Objects;
  */
 public class Circle extends Shape {
 
-    private Point a, b;
+    private Point a; 
+    private Point b;
 
     public Circle() {
     }

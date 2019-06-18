@@ -45,7 +45,8 @@ public class Human {
     }
 
     
-    public String info() {
+    @Override
+    public String toString() {
         return "Human{" + "height=" + height + ", weight=" + weight + ", age=" + age + '}';
     }
     

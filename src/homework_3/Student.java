@@ -12,7 +12,6 @@ public class Student extends Human {
     private String lastname;
 
     public Student() {
-
     }
 
     public Student(int height, int weight, int age, String name, String lastname) {
@@ -38,13 +37,15 @@ public class Student extends Human {
     }
 
     @Override
-    public String info() {
+    public String toString() {
         return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + "}";
     }
 
     @Override
     public int hashCode() {
         int hash = 7;
+        hash = 59 * hash + Objects.hashCode(this.name);
+        hash = 59 * hash + Objects.hashCode(this.lastname);
         return hash;
     }
 
@@ -68,7 +69,5 @@ public class Student extends Human {
         }
         return true;
     }
-    
-    
 
 }

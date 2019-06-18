@@ -2,6 +2,7 @@ package homework_3;
 
 import java.util.Arrays;
 import java.util.Comparator;
+import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -16,6 +17,9 @@ public class Group {
     private int id = 1;
 
     private Student[] students = new Student[10];
+    
+    public Group(){        
+    }
 
     public Student[] getStudents() {
         return students;
@@ -48,18 +52,19 @@ public class Group {
         for (int i = 0; i < students.length; i++) {
             if (null != students[i] && students[i].equals(student)) {
                 students[i] = null;
+                id--;
                 logger.log(Level.INFO, "Student {0} removed successful", student.getLastname());
             }
         }
     }
 
-    public Student findStudent(String lastname) {
+    public Optional<Student> findStudent(String lastname) {
         for (Student student : students) {
             if (null != student && student.getLastname().equals(lastname)) {
-                return student;
+                return Optional.of(student);
             }
         }
-        throw new RuntimeException("Student " + lastname + " is not found");
+        return Optional.empty();
     }
 
     @Override
@@ -82,7 +87,7 @@ public class Group {
         StringBuilder studentsAfterSort = new StringBuilder();
         for (Student student : students) {
             if (student != null) {
-                studentsAfterSort.append("\n").append(student.info());
+                studentsAfterSort.append("\n").append(student.toString());
             }
         }
         return studentsAfterSort.toString();
