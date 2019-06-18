@@ -55,9 +55,12 @@ public class Circle extends Shape {
 
     @Override
     public int hashCode() {
-        int hash = 3;
+        int hash = 7;
+        hash = 47 * hash + Objects.hashCode(this.a);
+        hash = 47 * hash + Objects.hashCode(this.b);
         return hash;
     }
+   
 
     @Override
     public boolean equals(Object obj) {

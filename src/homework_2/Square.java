@@ -139,9 +139,10 @@ public class Square extends Shape {
     @Override
     public int hashCode() {
         int hash = 7;
-        hash = 41 * hash + Objects.hashCode(this.a);
-        hash = 41 * hash + Objects.hashCode(this.b);
-        hash = 41 * hash + Objects.hashCode(this.d);
+        hash = 53 * hash + Objects.hashCode(this.a);
+        hash = 53 * hash + Objects.hashCode(this.b);
+        hash = 53 * hash + Objects.hashCode(this.c);
+        hash = 53 * hash + Objects.hashCode(this.d);
         return hash;
     }
 
@@ -171,7 +172,5 @@ public class Square extends Shape {
         }
         return true;
     }
-    
-    
 
 }
