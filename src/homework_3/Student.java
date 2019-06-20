@@ -1,6 +1,7 @@
 package homework_3;
 
 import java.util.Objects;
+import java.util.UUID;
 
 /**
  *
@@ -10,14 +11,17 @@ public class Student extends Human {
 
     private String name;
     private String lastname;
+    private String identificationCode;
 
     public Student() {
     }
 
-    public Student(int height, int weight, int age, String name, String lastname) {
-        super(height, weight, age);
+    public Student(int height, int weight, int age, boolean sex, String name, String lastname, String code) {
+        super(height, weight, age, sex);
         this.name = name;
         this.lastname = lastname;
+        this.identificationCode = code;
+                
     }
 
     public String getName() {
@@ -36,6 +40,20 @@ public class Student extends Human {
         this.lastname = lastname;
     }
 
+    public String getIdentificationCode() {
+        return identificationCode;
+    }
+
+    public void setIdentificationCode(String identificationCode) {
+        this.identificationCode = identificationCode;
+    }
+    
+    
+    public String createIdentifier() {
+        String identifier = UUID.randomUUID().toString();
+        return identifier;
+    }
+
     @Override
     public String toString() {
         return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + "}";
@@ -43,9 +61,10 @@ public class Student extends Human {
 
     @Override
     public int hashCode() {
-        int hash = 7;
-        hash = 59 * hash + Objects.hashCode(this.name);
-        hash = 59 * hash + Objects.hashCode(this.lastname);
+        int hash = 3;
+        hash = 79 * hash + Objects.hashCode(this.name);
+        hash = 79 * hash + Objects.hashCode(this.lastname);
+        hash = 79 * hash + Objects.hashCode(this.identificationCode);
         return hash;
     }
 
@@ -67,7 +86,12 @@ public class Student extends Human {
         if (!Objects.equals(this.lastname, other.lastname)) {
             return false;
         }
+        if (!Objects.equals(this.identificationCode, other.identificationCode)) {
+            return false;
+        }
         return true;
     }
+
+    
 
 }

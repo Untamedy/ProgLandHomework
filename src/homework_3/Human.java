@@ -9,11 +9,13 @@ public class Human {
     protected int height;
     protected int weight;
     protected int age;
+    protected boolean sex;
 
     public Human() {
     }
 
-    public Human(int height, int weight, int age) {
+    public Human(int height, int weight, int age, boolean sex) {
+        this.sex=sex;
         this.height = height;
         this.weight = weight;
         this.age = age;
@@ -43,6 +45,16 @@ public class Human {
     public void setAge(int age) {
         this.age = age;
     }
+
+    public boolean isSex() {
+        return sex;
+    }
+
+    public void setSex(boolean sex) {
+        this.sex = sex;
+    }
+    
+    
 
     
     @Override

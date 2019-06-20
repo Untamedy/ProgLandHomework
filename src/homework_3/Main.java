@@ -7,35 +7,17 @@ package homework_3;
 public class Main {
 
     public static void main(String[] args) {
-        Student s1 = new Student(175, 67, 18, "Jack", "Wood");
-        Student s2 = new Student(185, 77, 19, "Alan", "Geers");
-        Student s3 = new Student(185, 77, 19, "Rick", "Honor");
-        Student s4 = new Student(185, 77, 19, "Rick", "Allard");
+        Student s1 = new Student(175, 67, 18, true, "Jack", "Wood", "123546589");
+        Student s2 = new Student(185, 77, 19, true, "Alan", "Geers", "gt54538002");
+        Student s3 = new Student(185, 77, 19, false, "Ricky", "Honor", "rfr5797943");
+        Student s4 = new Student(185, 77, 19, true, "Rick", "Allard", "gjt4947676g");
+
+        Dialog d = new Dialog();
 
         Group groupOfStudents = new Group();
-
-        groupOfStudents.addStudent(s1);
-        groupOfStudents.addStudent(s2);
-        groupOfStudents.addStudent(s3);
-        groupOfStudents.addStudent(s1);
-        groupOfStudents.addStudent(s2);
-        groupOfStudents.addStudent(s4);
-        groupOfStudents.addStudent(s3);
-        groupOfStudents.addStudent(s4);
-        groupOfStudents.addStudent(s1);
-        groupOfStudents.addStudent(s3);
-
-        groupOfStudents.addStudent(s3);
-        groupOfStudents.addStudent(s4);
-        groupOfStudents.addStudent(s3);
-
-        System.out.println(groupOfStudents.toString());
-
-        System.out.println("\n Finded student: " + groupOfStudents.findStudent("Allard").toString());        
-
-        groupOfStudents.removeStudent(s3);
-        System.out.println("***Afre remote***\n" + groupOfStudents.toString());        
+        groupOfStudents.addNewStudent(d);
         
+
     }
 
 }
