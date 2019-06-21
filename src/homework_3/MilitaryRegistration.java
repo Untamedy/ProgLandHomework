@@ -6,6 +6,6 @@ package homework_3;
  */
 public interface MilitaryRegistration {
     
-    public Student [] selectStudents(Student [] students);
+    public Student [] selectStudentsByAge(int age, boolean sex);
 
 }

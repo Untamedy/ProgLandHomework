@@ -35,13 +35,11 @@ public class Group implements MilitaryRegistration {
         while (s == null) {
             try {
                 s = dialog.createStudent();
-            } catch (NotValidDataException e) {
-                int select = JOptionPane.showConfirmDialog(null, "Eneted data is not correct or you click. Do you want try again?", "Try again", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
-                if (select == JOptionPane.NO_OPTION) {
+            } catch (ClickCancelException e) {
+                int select = JOptionPane.showConfirmDialog(null, "Do you want to cancel adding a student?", "Cancel", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
+                if (select == JOptionPane.YES_OPTION) {
                     break;
                 }
-            }
-            catch(ClickCancelException e){
                 System.out.println(e.getMessage());
             }
         }
@@ -90,6 +88,18 @@ public class Group implements MilitaryRegistration {
 
     @Override
     public String toString() {
+        students = sortByLastname();
+        StringBuilder studentsAfterSort = new StringBuilder();
+        for (Student student : students) {
+            if (student != null) {
+                studentsAfterSort.append("\n").append(student.toString());
+            }
+        }
+        return studentsAfterSort.toString();
+
+    }
+
+    public Student[] sortByLastname() {
         Arrays.sort(students, new Comparator<Student>() {
             @Override
             public int compare(Student s1, Student s2) {
@@ -105,31 +115,44 @@ public class Group implements MilitaryRegistration {
                 return s1.getLastname().compareTo(s2.getLastname());
             }
         });
-        StringBuilder studentsAfterSort = new StringBuilder();
-        for (Student student : students) {
-            if (student != null) {
-                studentsAfterSort.append("\n").append(student.toString());
+
+        return students;
+    }
+
+    public Student[] sortByParameter(String parameter) {
+        Arrays.sort(students, new Comparator<Student>() {
+            @Override
+            public int compare(Student s1, Student s2) {
+                if (s1 == null && s2 == null) {
+                    return 0;
+                }
+                if (s1 == null) {
+                    return 1;
+                }
+                if (s2 == null) {
+                    return -1;
+                }
+                if(parameter.equals("name")){
+                    return s1.getName().compareTo(s2.getName());
+                }
+                if(parameter.equals("lastname")){
+                    return s1.getLastname().compareTo(s2.getLastname());
+                }
+                if(parameter.equals("age")){
+                    Integer a = s1.getAge();
+                    Integer b = s2.getAge();
+                    return (a.compareTo(b));
+                }
+                
+                return s1.getLastname().compareTo(s2.getLastname());
             }
-        }
-        return studentsAfterSort.toString();
+        });
+        return students;
 
-    }
-
-    public Student createNewStudent() {
-
-        return null;
-    }
-
-    public Student[] sortByLastname() {
-        return null;
-    }
-
-    public Student[] sortByParameter() {
-        return null;
     }
 
     @Override
-    public Student[] selectStudents(Student[] students) {
+    public Student[] selectStudentsByAge(int age, boolean sex) {
         return null;
     }
 
