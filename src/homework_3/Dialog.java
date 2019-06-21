@@ -23,8 +23,7 @@ public class Dialog {
         s.setAge(inputAge());
         s.setHeight(inputHeight());
         s.setWeight(inputWeight());
-        s.setSex(inputSex());
-        s.setIdentificationCode(s.createIdentifier());
+        s.setSex(inputSex());        
 
         return s;
     }

@@ -10,8 +10,7 @@ import java.util.UUID;
 public class Student extends Human {
 
     private String name;
-    private String lastname;
-    private String identificationCode;
+    private String lastname;    
 
     public Student() {
     }
@@ -19,9 +18,8 @@ public class Student extends Human {
     public Student(int height, int weight, int age, boolean sex, String name, String lastname, String code) {
         super(height, weight, age, sex);
         this.name = name;
-        this.lastname = lastname;
-        this.identificationCode = code;        
-                
+        this.lastname = lastname;       
+
     }
 
     public String getName() {
@@ -39,39 +37,25 @@ public class Student extends Human {
     public void setLastname(String lastname) {
         this.lastname = lastname;
     }
-
-    public String getIdentificationCode() {
-        return identificationCode;
-    }
-
-    public void setIdentificationCode(String identificationCode) {
-        this.identificationCode = identificationCode;
-    }
-    
-    
-    public String createIdentifier() {
-        String identifier = UUID.randomUUID().toString();
-        return identifier;
-    }
+        
 
     @Override
     public String toString() {
         boolean sex = this.sex;
         String s = "";
-        if(sex){
-            s="female";
-        }else{
-            s="male";
+        if (sex) {
+            s = "female";
+        } else {
+            s = "male";
         }
-        return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + "sex ="+ s + "}";
+        return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + ", sex =" + s + "}";
     }
 
     @Override
     public int hashCode() {
         int hash = 3;
         hash = 79 * hash + Objects.hashCode(this.name);
-        hash = 79 * hash + Objects.hashCode(this.lastname);
-        hash = 79 * hash + Objects.hashCode(this.identificationCode);
+        hash = 79 * hash + Objects.hashCode(this.lastname);       
         return hash;
     }
 
@@ -93,12 +77,8 @@ public class Student extends Human {
         if (!Objects.equals(this.lastname, other.lastname)) {
             return false;
         }
-        if (!Objects.equals(this.identificationCode, other.identificationCode)) {
-            return false;
-        }
+        
         return true;
     }
-
-    
 
 }

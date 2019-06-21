@@ -1,9 +1,7 @@
 package homework_3;
 
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.Comparator;
-import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 import java.util.logging.Level;
@@ -46,12 +44,11 @@ public class Group implements MilitaryRegistration {
             }
         }
         if (s != null) {
-            addStudent(s, students);
+            addStudentToArray(s, students);
         }
     }
 
-    public void addStudent(Student student, Student[] s) {
-
+    public void addStudentToArray(Student student, Student[] s) {
         if (groupCountr > 10) {
             throw new MyOwnException();
         }
@@ -113,9 +110,7 @@ public class Group implements MilitaryRegistration {
 
     public Student[] sortByParameter() {
         boolean isRevers = selectSortType();
-
         Map<String, Comparator<Student>> comparatorMap = Sorter.createComporatorMap(isRevers);
-
         String[] parameters = {"Name", "Lastname", "Age", "Height", "Weight", "Sex"};
         
         String sort = (String) JOptionPane.showInputDialog(null, "Select parameter for sort", "Sort by parameter", JOptionPane.PLAIN_MESSAGE, null, parameters, null);
@@ -138,7 +133,7 @@ public class Group implements MilitaryRegistration {
         for (Student s : students) {
             if (s != null) {
                 if ((s.getAge() > 18) && (!s.isSex())) {
-                    addStudent(s, studentsForArmy);
+                    addStudentToArray(s, studentsForArmy);
                 }
             }
         }
