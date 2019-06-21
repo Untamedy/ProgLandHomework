@@ -20,7 +20,7 @@ public class Student extends Human {
         super(height, weight, age, sex);
         this.name = name;
         this.lastname = lastname;
-        this.identificationCode = code;
+        this.identificationCode = code;        
                 
     }
 
@@ -56,7 +56,14 @@ public class Student extends Human {
 
     @Override
     public String toString() {
-        return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + "}";
+        boolean sex = this.sex;
+        String s = "";
+        if(sex){
+            s="female";
+        }else{
+            s="male";
+        }
+        return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + "sex ="+ s + "}";
     }
 
     @Override

@@ -1,7 +1,10 @@
 package homework_3;
 
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.Comparator;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.Optional;
 import java.util.logging.Level;
 import java.util.logging.Logger;
@@ -15,7 +18,7 @@ public class Group implements MilitaryRegistration {
 
     Logger logger = Logger.getLogger(Group.class.getName());
 
-    private int id = 1;
+    private int groupCountr = 1;
 
     private Student[] students = new Student[10];
 
@@ -36,42 +39,38 @@ public class Group implements MilitaryRegistration {
             try {
                 s = dialog.createStudent();
             } catch (ClickCancelException e) {
-                int select = JOptionPane.showConfirmDialog(null, "Do you want to cancel adding a student?", "Cancel", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
-                if (select == JOptionPane.YES_OPTION) {
+                if (e.getSelectResult() == JOptionPane.YES_OPTION) {
                     break;
                 }
                 System.out.println(e.getMessage());
             }
         }
         if (s != null) {
-            addStudent(s);
+            addStudent(s, students);
         }
     }
 
-    public void addStudent(Student student) {
-        try {
-            if (id > 10) {
-                throw new MyOwnException();
-            }
-            for (int i = 0; i < students.length; i++) {
-                if (students[i] == null) {
-                    students[i] = student;
-                    id++;
-                    logger.log(Level.INFO, "Student {0} added successful", student.getLastname());
-                    break;
-                }
-            }
+    public void addStudent(Student student, Student[] s) {
 
-        } catch (MyOwnException e) {
-            logger.warning(e.getMessage());
+        if (groupCountr > 10) {
+            throw new MyOwnException();
         }
+        for (int i = 0; i < s.length; i++) {
+            if (s[i] == null) {
+                s[i] = student;
+                groupCountr++;
+                logger.log(Level.INFO, "Student {0} added successful", student.getLastname());
+                break;
+            }
+        }
+
     }
 
     public void removeStudent(Student student) {
         for (int i = 0; i < students.length; i++) {
             if (null != students[i] && students[i].equals(student)) {
                 students[i] = null;
-                id--;
+                groupCountr--;
                 logger.log(Level.INFO, "Student {0} removed successful", student.getLastname());
             }
         }
@@ -89,14 +88,7 @@ public class Group implements MilitaryRegistration {
     @Override
     public String toString() {
         students = sortByLastname();
-        StringBuilder studentsAfterSort = new StringBuilder();
-        for (Student student : students) {
-            if (student != null) {
-                studentsAfterSort.append("\n").append(student.toString());
-            }
-        }
-        return studentsAfterSort.toString();
-
+        return resultToString(students);
     }
 
     public Student[] sortByLastname() {
@@ -119,46 +111,55 @@ public class Group implements MilitaryRegistration {
         return students;
     }
 
-    public Student[] sortByParameter(String parameter) {
-        Arrays.sort(students, new Comparator<Student>() {
-            @Override
-            public int compare(Student s1, Student s2) {
-                if (s1 == null && s2 == null) {
-                    return 0;
-                }
-                if (s1 == null) {
-                    return 1;
-                }
-                if (s2 == null) {
-                    return -1;
-                }
-                if(parameter.equals("name")){
-                    return s1.getName().compareTo(s2.getName());
-                }
-                if(parameter.equals("lastname")){
-                    return s1.getLastname().compareTo(s2.getLastname());
-                }
-                if(parameter.equals("age")){
-                    Integer a = s1.getAge();
-                    Integer b = s2.getAge();
-                    return (a.compareTo(b));
-                }
-                
-                return s1.getLastname().compareTo(s2.getLastname());
-            }
-        });
-        return students;
+    public Student[] sortByParameter() {
+        boolean isRevers = selectSortType();
 
+        Map<String, Comparator<Student>> comparatorMap = Sorter.createComporatorMap(isRevers);
+
+        String[] parameters = {"Name", "Lastname", "Age", "Height", "Weight", "Sex"};
+        
+        String sort = (String) JOptionPane.showInputDialog(null, "Select parameter for sort", "Sort by parameter", JOptionPane.PLAIN_MESSAGE, null, parameters, null);
+
+        if (sort == null) {
+            throw new ClickCancelException();
+        }
+        Comparator<Student> comparator = comparatorMap.get(sort);
+        if (comparator != null) {
+            Arrays.sort(students, comparator);
+        } else {
+            return students;
+        }
+        return students;
     }
 
     @Override
     public Student[] selectStudentsByAge(int age, boolean sex) {
-        return null;
+        Student[] studentsForArmy = new Student[10];
+        for (Student s : students) {
+            if (s != null) {
+                if ((s.getAge() > 18) && (!s.isSex())) {
+                    addStudent(s, studentsForArmy);
+                }
+            }
+        }
+        return studentsForArmy;
     }
 
-    public String getData() {
-        return null;
+    public String resultToString(Student[] studentsArray) {
+        StringBuilder studentsAfterSort = new StringBuilder();
+        for (Student student : studentsArray) {
+            if (student != null) {
+                studentsAfterSort.append("\n").append(student.toString());
+            }
+        }
+        return studentsAfterSort.toString();
 
+    }
+    
+    public boolean selectSortType(){
+        String[] parameters = {"ASC","DESC"};        
+        String sort = (String) JOptionPane.showInputDialog(null, "Select parameter for sort", "Sort by parameter", JOptionPane.PLAIN_MESSAGE, null, parameters, null);
+        return sort.equals("DESC");
     }
 
 }

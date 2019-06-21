@@ -1,7 +1,6 @@
 package homework_3;
 
 import javax.swing.JOptionPane;
-import jdk.nashorn.internal.ir.BreakNode;
 
 /**
  *
@@ -35,8 +34,7 @@ public class Dialog {
         try {
             name = getData(stringRegex, "name");
         } catch (NotValidDataException e) {
-            int select = JOptionPane.showConfirmDialog(null, "Eneted data is not correct. Do you want try again?", "Try again", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
-            if (select == JOptionPane.NO_OPTION) {
+            if (e.getSelectResult() == JOptionPane.NO_OPTION) {
                 throw new ClickCancelException();
             } else {
                 inputName();
@@ -50,15 +48,13 @@ public class Dialog {
         try {
             lastName = getData(stringRegex, "lastName");
         } catch (NotValidDataException e) {
-            int select = JOptionPane.showConfirmDialog(null, "Eneted data is not correct. Do you want try again?", "Try again", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
-            if (select == JOptionPane.NO_OPTION) {
+            if (e.getSelectResult() == JOptionPane.NO_OPTION) {
                 throw new ClickCancelException();
             } else {
                 inputLastname();
             }
         }
         return lastName;
-
     }
 
     public int inputAge() throws ClickCancelException {
@@ -66,14 +62,12 @@ public class Dialog {
         try {
             age = Integer.valueOf(getData(numberRehex, "age"));
         } catch (NotValidDataException e) {
-            int select = JOptionPane.showConfirmDialog(null, "Eneted data is not correct. Do you want try again?", "Try again", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
-            if (select == JOptionPane.NO_OPTION) {
+            if (e.getSelectResult() == JOptionPane.NO_OPTION) {
                 throw new ClickCancelException();
             } else {
                 inputAge();
             }
         }
-
         return age;
     }
 
@@ -82,8 +76,7 @@ public class Dialog {
         try {
             height = Integer.valueOf(getData(numberRehex, "height"));
         } catch (NotValidDataException e) {
-            int select = JOptionPane.showConfirmDialog(null, "Eneted data is not correct. Do you want try again?", "Try again", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
-            if (select == JOptionPane.NO_OPTION) {
+            if (e.getSelectResult() == JOptionPane.NO_OPTION) {
                 throw new ClickCancelException();
             } else {
                 inputHeight();
@@ -95,10 +88,9 @@ public class Dialog {
     public int inputWeight() throws ClickCancelException {
         int weight = 0;
         try {
-            Integer.valueOf(getData(numberRehex, "weight"));
+            weight = Integer.valueOf(getData(numberRehex, "weight"));
         } catch (NotValidDataException e) {
-            int select = JOptionPane.showConfirmDialog(null, "Eneted data is not correct. Do you want try again?", "Try again", JOptionPane.YES_NO_OPTION, JOptionPane.INFORMATION_MESSAGE);
-            if (select == JOptionPane.NO_OPTION) {
+            if (e.getSelectResult() == JOptionPane.NO_OPTION) {
                 throw new ClickCancelException();
             } else {
                 inputWeight();
@@ -110,10 +102,7 @@ public class Dialog {
     public boolean inputSex() throws ClickCancelException, NotValidDataException {
         String[] genderValues = {"Female", "Male"};
         String sex = (String) JOptionPane.showInputDialog(null, "Select student sex ", "sex", JOptionPane.PLAIN_MESSAGE, null, genderValues, null);
-        if (sex.equals("Female")) {
-            return true;
-        }
-        return false;
+        return sex.equals("Female");
     }
 
     public String getData(String regex, String value) {
