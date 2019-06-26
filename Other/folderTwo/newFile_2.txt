@@ -1,0 +1,8 @@
+Bytecode instructions
+Main article: Java bytecode
+The JVM has instructions for the following groups of tasks:
+
+Load and store Arithmetic Type conversion Object creation and manipulation Operand stack management (push / pop) Control transfer (branching) Method invocation and return Throwing exceptions Monitor-based concurrency
+The aim is binary compatibility. Each particular host operating system needs its own implementation of the JVM and runtime. These JVMs interpret the bytecode semantically the same way, but the actual implementation may be different. More complex than just emulating bytecode is compatibly and efficiently implementing the Java core API that must be mapped to each host operating system.
+
+These instructions operate on a set of common abstracted data types rather the native data types of any specific instruction set architecture.

@@ -22,6 +22,12 @@ public class Student extends Human {
 
     }
 
+    public Student(String[] attr) {
+        super(Integer.valueOf(attr[2]),Integer.valueOf(attr[3]),Integer.valueOf(attr[4]),attr[5].equals("female"));
+        this.lastname = attr[0];
+        this.name=attr[1];  
+    }
+
     public String getName() {
         return name;
     }
@@ -49,6 +55,18 @@ public class Student extends Human {
             s = "male";
         }
         return "Student{lastname =" + lastname + ", name=" + name + " height=" + this.height + ", weight=" + this.weight + ", age=" + this.age + ", sex =" + s + "}";
+    }
+    
+    public String toCSV(){
+        boolean sex = this.sex;
+        String s = "";
+        if (sex) {
+            s = "female";
+        } else {
+            s = "male";
+        }        
+        return lastname + ","+ name + "," + this.height + "," + this.weight + "," + this.age + "," + s ;
+        
     }
 
     @Override
