@@ -11,8 +11,8 @@ public class Main {
     public static void main(String[] args) {
         FileHandler f = new FileHandler();
 
-        String readFromDir = "C:\\Users\\YBolshakova\\Documents\\gs-maven\\Homework\\Other\\folderOne";
-        String writeToDir = "C:\\Users\\YBolshakova\\Documents\\gs-maven\\Homework\\Other\\folderTwo";
+        String readFromDir = "folderOne\\";
+        String writeToDir = "folderTwo\\";
         String fileType = ".txt";
 
         File one = new File(writeToDir,"newFile_1.txt");

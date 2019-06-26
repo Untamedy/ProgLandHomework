@@ -1,7 +1,6 @@
 package homework_3;
 
 import java.util.Objects;
-import java.util.UUID;
 
 /**
  *
