@@ -20,10 +20,8 @@ public class Main {
         File appendFile = new File(writeToDir, "append.txt");
         
         f.copyFiles(readFromDir, writeToDir, fileType);
-        File[] files = f.getFiles(writeToDir, fileType);
-
-        f.appendFiles(one, two, appendFile);
-
+        
+        f.joinFiles(one, two, appendFile);   
     }
 
 }

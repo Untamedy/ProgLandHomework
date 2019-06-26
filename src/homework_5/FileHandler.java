@@ -69,7 +69,7 @@ public class FileHandler {
         }
     }
 
-    public void appendFiles(File firstFile, File secondFile, File writeTo) {                
+    public void joinFiles(File firstFile, File secondFile, File writeTo) {                
         List<String> firsdFilecontetn = splitBy(fileContentToString(firstFile), "\\s+|,\\s*|\\.\\s*|\\:\\s*");
         List<String> secondFileContent = splitBy(fileContentToString(secondFile), "\\s+|,\\s*|\\.\\s*");
         firsdFilecontetn.retainAll(secondFileContent);
@@ -77,6 +77,7 @@ public class FileHandler {
             for (String s : firsdFilecontetn) {
                 writer.write(s + ",");
             }
+            logger.info("Files joined sucessfully");
         } catch (IOException e) {
            logger.warning(e.getMessage());
         }
