@@ -1,5 +1,7 @@
-package homework_4;
+package homework_5;
 
+import java.util.logging.Level;
+import java.util.logging.Logger;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileInputStream;
@@ -17,6 +19,8 @@ import java.util.List;
  * @author YBolshakova
  */
 public class FileHandler {
+    
+    Logger logger = Logger.getLogger(FileHandler.class.getName()); 
 
     public void copyFiles(String readFromDir, String writeToDir, String typeFile) {
         int copyNum = 1;
@@ -28,10 +32,11 @@ public class FileHandler {
                     File write = new File(writeToDir,"newFile_"+copyNum+".txt");
                     copy(f, write);
                     copyNum++;
+                    logger.info("File copied successfully");
                 }
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            logger.warning(e.getMessage());
 
         }
     }
@@ -41,6 +46,7 @@ public class FileHandler {
         File[] oneFile = new File[1];
         if (readFrom.isDirectory()) {
             File[] files = readFrom.listFiles((File pathname) -> pathname.getName().endsWith(".txt"));
+            logger.log(Level.INFO, "Found {0} files", files.length);
             return files;
         } else {
             if (readFrom.getName().endsWith(type)) {
@@ -59,7 +65,7 @@ public class FileHandler {
                 writer.write(buffer,0,byteread);                
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            logger.warning(e.getMessage());
         }
     }
 
@@ -72,7 +78,7 @@ public class FileHandler {
                 writer.write(s + ",");
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+           logger.warning(e.getMessage());
         }
     }
 
@@ -84,7 +90,7 @@ public class FileHandler {
                 content.append(s.toLowerCase()).append(" ");
             }
         } catch (IOException e) {
-            System.out.println(e.getMessage());
+            logger.warning(e.getMessage());
         }
         return content.toString();
     }

@@ -18,8 +18,7 @@ public class Student extends Human {
     public Student(int height, int weight, int age, boolean sex, String name, String lastname, String code) {
         super(height, weight, age, sex);
         this.name = name;
-        this.lastname = lastname;       
-
+        this.lastname = lastname;      
     }
 
     public Student(String[] attr) {
