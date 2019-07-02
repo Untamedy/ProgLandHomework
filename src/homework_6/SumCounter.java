@@ -26,6 +26,14 @@ public class SumCounter implements Runnable {
         thread.start();
     }
 
+    public Thread getThread() {
+        return thread;
+    }
+
+    public void setThread(Thread thread) {
+        this.thread = thread;    }
+    
+
     public int[] getNumbers() {
         return numbers;
     }
@@ -47,18 +55,16 @@ public class SumCounter implements Runnable {
     }
 
     public long multyThreadsCounter(int threadCount, int[] numArray) {
-        long sum = 0;
-        SumCounter [] sumCounters = createThreads(threadCount);
-        for(int i = 0; i<sumCounters.length; i+=1){
-            
-        }
-        
-        
-        
-        
+        long allArraySum = 0;         
         List<SumCounter> sumCounters = arraySplit(numArray, threadCount);
         for(SumCounter s: sumCounters){
-          
+            try{ 
+                allArraySum+=this.sum;
+                s.getThread().join();              
+                
+            }catch(InterruptedException e){
+                System.out.println(e.getMessage());
+            }          
         }        
        return sum;
     }
