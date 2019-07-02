@@ -13,14 +13,17 @@ public class SumCounter implements Runnable {
     private int[] numbers;
     private int start;
     private int end;
+    private Thread thread;
+    private long sum;
+    
 
     public SumCounter() {
     }
 
-    public SumCounter(int[] numbers, int start, int end) {
+    public SumCounter(int[] numbers) {
         this.numbers = numbers;
-        this.start = start;
-        this.end = end;
+        this.thread = new Thread(this);
+        thread.start();
     }
 
     public int[] getNumbers() {
@@ -42,63 +45,79 @@ public class SumCounter implements Runnable {
     public void setEnd(int end) {
         this.end = end;
     }
-    
+
+    public long multyThreadsCounter(int threadCount, int[] numArray) {
+        long sum = 0;
+        SumCounter [] sumCounters = createThreads(threadCount);
+        for(int i = 0; i<sumCounters.length; i+=1){
+            
+        }
+        
+        
+        
+        
+        List<SumCounter> sumCounters = arraySplit(numArray, threadCount);
+        for(SumCounter s: sumCounters){
+          
+        }        
+       return sum;
+    }
+
+    public List<SumCounter> arraySplit(int[] array, int count) {
+        int size = (int) Math.ceil(array.length / count);
+        int startOfArray = 0;
+        int endEnfOfArray = 0;
+        List<SumCounter> arrays = new ArrayList<>();
+        if (array.length == 0) {
+            return arrays;
+        }
+        if (size < 2 || count == 1) {
+            arrays.add(new SumCounter(array));            
+            return arrays;
+        } else {
+            for (int i = 0; i < count; i++) {
+                if (endEnfOfArray == array.length) {
+                    return arrays;
+                }
+                startOfArray = size * i;
+                endEnfOfArray = (int) ((i + 1) * size);
+                if ((array.length - endEnfOfArray) < size) {
+                    endEnfOfArray = array.length;
+                }
+                int[] newArray = Arrays.copyOfRange(array, startOfArray, endEnfOfArray);
+                arrays.add(new SumCounter(newArray));                
+            }
+        }
+        return arrays;
+    }
+
+    public SumCounter[] createThreads(int count) {
+        SumCounter[] sumCounters = new SumCounter[1];
+        int availableProcessors = Runtime.getRuntime().availableProcessors();
+        if (count > availableProcessors) {
+            sumCounters = new SumCounter[availableProcessors];
+        }
+        if ((0 < count) && (count <= availableProcessors)) {
+            sumCounters = new SumCounter[count];
+            return sumCounters;
+        }
+        return sumCounters;
+    }
+
     
 
-    public long sumCounter(int[] intArray, int start, int end) {
-        long sum = 0;
-        for (int i = start; i <=end; i += 1) {
-            sum += intArray[i];
+    public void countSum() {
+        int [] numArray = this.numbers;
+        sum = 0;
+        for (int i = 0; i < numArray.length; i++) {
+            sum += numArray[i];
         }
-        return sum;
+      
     }
-    
-    public long multyThreadsCounter(int threadCount, int [] numArray){ 
-        long sum = 0;
-        Thread [] threads = createThreads(threadCount);
-        
-        
-        
-        return sum;
-        
-    }
-    
-    public List<int []> arraySplit(int [] array, int count){
-        int startOfArray = 0;
-        int endEnfOfArray = calcEndValue(array.length, count);
-        List<int []> arrays = new ArrayList<>();
-        for(int i=1;i<=count+1;i++){            
-            int [] newArray = Arrays.copyOfRange(array, startOfArray, endEnfOfArray);
-            arrays.add(newArray);
-            startOfArray = endEnfOfArray;
-            endEnfOfArray = endEnfOfArray +count-1;
-            System.out.println(Arrays.toString(newArray));
-        }        
-        return arrays;
-        
-    }
-    
-    public int calcEndValue(int length, int count){
-        int endOfArray = 0;
-        if((length%count)!=0) {
-           return endOfArray =  Math.abs(length/count+1); 
-        }
-        return endOfArray = length/count;
-    }
-    
-    public Thread [] createThreads(int count){
-        Thread [] threads = new Thread[count];
-        for (int i = 0; i < threads.length; i+=1) {
-            threads[i]= new Thread(new SumCounter());            
-        }
-        return threads;        
-    }
-    
-    
 
     @Override
     public void run() {
-
+        countSum();
     }
 
 }
