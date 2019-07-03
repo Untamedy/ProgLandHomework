@@ -1,6 +1,5 @@
 package homework_6;
 
-import java.util.concurrent.TimeUnit;
 
 /**
  *
@@ -10,10 +9,10 @@ public class Main {
 
     public static void main(String[] args) {
         Factorial f = new Factorial();
-        
+
         SumCounter s = new SumCounter();
-        
-        int[] arr = {1, 2, 3, 6, 5, 4, 7, 8};
+
+        int[] arr = {1, 2, 3, 6, 5, 4, 7, 8, 9, 8, 7, 4, 5, 8, 6, 9, 5, 4, 8};
 
         long tStart = System.currentTimeMillis();
         int sum = SumCounter.countArraySum(arr);

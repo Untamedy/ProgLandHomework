@@ -1,11 +1,9 @@
 package homework_6;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import jdk.nashorn.internal.codegen.CompilerConstants;
 
 /**
  *
@@ -46,7 +44,7 @@ public class SumCounter {
             return arrays;
         }
         if (size < 2 || count == 1) {
-            arrays.add(new Worker(0, array.length,0,array));
+            arrays.add(new Worker(startOfArray, array.length,0,array));
             return arrays;
         } else {
             for (int i = 0; i < count; i++) {
@@ -93,6 +91,10 @@ public class SumCounter {
         private  int index;
         private  Thread thread;
         private  int [] numArray;
+        
+        public Worker(){
+            
+        }
 
         public Worker(int start, int end, int index, int [] numArray) {
             this.numArray = numArray;
@@ -105,19 +107,12 @@ public class SumCounter {
 
         public  long getSum() {
             return sum;
-        }
-
-        public  void setSum(long sum) {
-            sum = sum;
-        }
+        }        
 
         public  int getIndex() {
             return index;
         }
-
-        public  void setIndex(int index) {
-            index = index;
-        }
+      
 
         public Thread getThread() {
             return thread;
