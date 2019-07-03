@@ -7,12 +7,14 @@ package homework_6;
  */
 public class Main {
 
-    public static void main(String[] args) {
-        Factorial f = new Factorial();
+    public static void main(String[] args) {   
+        String readFromDir = "folderOne\\";
+        String writeToDir = "folderTwo\\";
 
-        SumCounter s = new SumCounter();
+        FileCopier fc = new FileCopier();
+        fc.multithreadCopier(readFromDir, writeToDir, 2);
 
-        int[] arr = {1, 2, 3, 6, 5, 4, 7, 8, 9, 8, 7, 4, 5, 8, 6, 9, 5, 4, 8};
+        /*int[] arr = {1, 2, 3, 6, 5, 4, 7, 8, 9, 8, 7, 4, 5, 8, 6, 9, 5, 4, 8};
 
         long tStart = System.currentTimeMillis();
         int sum = SumCounter.countArraySum(arr);
@@ -22,11 +24,11 @@ public class Main {
         System.out.println("Result_defoultCounter = " + timeResult);
 
         tStart = System.currentTimeMillis();
-        int result = s.multyThreadsCounter(30, arr);
+        int result = SumCounter.multyThreadsCounter(30, arr);
         tEnd = System.currentTimeMillis();
         System.out.println("Result = " + result);
         timeResult = tEnd - tStart;
-        System.out.println("Result_multithreadCounter = " + timeResult);
+        System.out.println("Result_multithreadCounter = " + timeResult);*/
 
     }
 

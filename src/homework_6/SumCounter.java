@@ -16,25 +16,23 @@ public class SumCounter {
     public SumCounter() {
     }
 
-    public  int multyThreadsCounter(int threadCount, int[] numArray) {
+    public static int multyThreadsCounter(int threadCount, int[] numArray) {
         int allArraySum = 0;
         List<Worker> sumCounters = getWorkersList(numArray, threadCount);
-        for (Worker w : sumCounters) {
-            Thread t = w.getThread();            
-            t.start();        }
-        for (Worker w : sumCounters) {
+        sumCounters.forEach((w) -> w.start());
+        sumCounters.forEach((w) -> {
             try {
-                w.getThread().join();
+                w.join();
             } catch (InterruptedException e) {
             }
-        }
+        });
         for (Worker w : sumCounters) {
             allArraySum += w.sum;
         }
         return allArraySum;
     }
 
-    public  List<Worker> getWorkersList(int[] array, int count) {
+    private static  List<Worker> getWorkersList(int[] array, int count) {
         int startOfArray = 0;
         int endEnfOfArray = 0;
         count = realThreadQuantity(count);
@@ -81,15 +79,13 @@ public class SumCounter {
         return sumOfArray;
     }
 
-    public class Worker implements Runnable {
-
-        Logger logger = Logger.getLogger(Worker.class.getName());
+    private static class Worker extends Thread{
+       
         
         private  int start;
         private  int end;      
         private  long sum;
-        private  int index;
-        private  Thread thread;
+        private  int index;       
         private  int [] numArray;
         
         public Worker(){
@@ -100,8 +96,7 @@ public class SumCounter {
             this.numArray = numArray;
             this.start = start;
             this.end = end;           
-            this.index = index;
-            this.thread = new Thread(this);          
+            this.index = index;                      
         }
        
 
@@ -112,12 +107,7 @@ public class SumCounter {
         public  int getIndex() {
             return index;
         }
-      
-
-        public Thread getThread() {
-            return thread;
-        }
-        
+              
 
         public void countSum() {
             sum = 0;            
