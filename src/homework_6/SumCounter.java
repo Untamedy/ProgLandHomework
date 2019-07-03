@@ -3,82 +3,50 @@ package homework_6;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+import jdk.nashorn.internal.codegen.CompilerConstants;
 
 /**
  *
  * @author YBolshakova
  */
-public class SumCounter implements Runnable {
+public class SumCounter {
 
-    private int[] numbers;
-    private int start;
-    private int end;
-    private Thread thread;
-    private long sum;
-    
+    static final Logger logger = Logger.getLogger(SumCounter.class.getName());
 
     public SumCounter() {
     }
 
-    public SumCounter(int[] numbers) {
-        this.numbers = numbers;
-        this.thread = new Thread(this);
-        thread.start();
+    public  int multyThreadsCounter(int threadCount, int[] numArray) {
+        int allArraySum = 0;
+        List<Worker> sumCounters = getWorkersList(numArray, threadCount);
+        for (Worker w : sumCounters) {
+            Thread t = w.getThread();            
+            t.start();        }
+        for (Worker w : sumCounters) {
+            try {
+                w.getThread().join();
+            } catch (InterruptedException e) {
+            }
+        }
+        for (Worker w : sumCounters) {
+            allArraySum += w.sum;
+        }
+        return allArraySum;
     }
 
-    public Thread getThread() {
-        return thread;
-    }
-
-    public void setThread(Thread thread) {
-        this.thread = thread;    }
-    
-
-    public int[] getNumbers() {
-        return numbers;
-    }
-
-    public int getStart() {
-        return start;
-    }
-
-    public int getEnd() {
-        return end;
-    }
-
-    public void setStart(int start) {
-        this.start = start;
-    }
-
-    public void setEnd(int end) {
-        this.end = end;
-    }
-
-    public long multyThreadsCounter(int threadCount, int[] numArray) {
-        long allArraySum = 0;         
-        List<SumCounter> sumCounters = arraySplit(numArray, threadCount);
-        for(SumCounter s: sumCounters){
-            try{ 
-                allArraySum+=this.sum;
-                s.getThread().join();              
-                
-            }catch(InterruptedException e){
-                System.out.println(e.getMessage());
-            }          
-        }        
-       return sum;
-    }
-
-    public List<SumCounter> arraySplit(int[] array, int count) {
-        int size = (int) Math.ceil(array.length / count);
+    public  List<Worker> getWorkersList(int[] array, int count) {
         int startOfArray = 0;
         int endEnfOfArray = 0;
-        List<SumCounter> arrays = new ArrayList<>();
+        count = realThreadQuantity(count);
+        int size = (int) Math.ceil(array.length / count);
+        List<Worker> arrays = new ArrayList<>();
         if (array.length == 0) {
             return arrays;
         }
         if (size < 2 || count == 1) {
-            arrays.add(new SumCounter(array));            
+            arrays.add(new Worker(0, array.length,0,array));
             return arrays;
         } else {
             for (int i = 0; i < count; i++) {
@@ -89,41 +57,86 @@ public class SumCounter implements Runnable {
                 endEnfOfArray = (int) ((i + 1) * size);
                 if ((array.length - endEnfOfArray) < size) {
                     endEnfOfArray = array.length;
-                }
-                int[] newArray = Arrays.copyOfRange(array, startOfArray, endEnfOfArray);
-                arrays.add(new SumCounter(newArray));                
+                }                
+                arrays.add(new Worker(startOfArray, endEnfOfArray, i, array));
             }
         }
         return arrays;
     }
 
-    public SumCounter[] createThreads(int count) {
-        SumCounter[] sumCounters = new SumCounter[1];
+    public static int realThreadQuantity(int count) {
         int availableProcessors = Runtime.getRuntime().availableProcessors();
         if (count > availableProcessors) {
-            sumCounters = new SumCounter[availableProcessors];
+            count = availableProcessors;
         }
         if ((0 < count) && (count <= availableProcessors)) {
-            sumCounters = new SumCounter[count];
-            return sumCounters;
+            return count;
         }
-        return sumCounters;
+        return count;
     }
 
-    
-
-    public void countSum() {
-        int [] numArray = this.numbers;
-        sum = 0;
-        for (int i = 0; i < numArray.length; i++) {
-            sum += numArray[i];
+    public static int countArraySum(int[] num) {
+        int sumOfArray = 0;
+        for (int i = 0; i < num.length; i++) {
+            sumOfArray += num[i];
         }
-      
+        return sumOfArray;
     }
 
-    @Override
-    public void run() {
-        countSum();
+    public class Worker implements Runnable {
+
+        Logger logger = Logger.getLogger(Worker.class.getName());
+        
+        private  int start;
+        private  int end;      
+        private  long sum;
+        private  int index;
+        private  Thread thread;
+        private  int [] numArray;
+
+        public Worker(int start, int end, int index, int [] numArray) {
+            this.numArray = numArray;
+            this.start = start;
+            this.end = end;           
+            this.index = index;
+            this.thread = new Thread(this);          
+        }
+       
+
+        public  long getSum() {
+            return sum;
+        }
+
+        public  void setSum(long sum) {
+            sum = sum;
+        }
+
+        public  int getIndex() {
+            return index;
+        }
+
+        public  void setIndex(int index) {
+            index = index;
+        }
+
+        public Thread getThread() {
+            return thread;
+        }
+        
+
+        public void countSum() {
+            sum = 0;            
+            for (int i = start; i < end; i++) {
+                sum += numArray[i];
+                logger.log(Level.INFO, "sumCounter {0} iteration number {1} sum = {2}", new Object[]{index, i, sum});
+            }
+        }
+
+        @Override
+        public void run() {
+            countSum();
+        }
+
     }
 
 }
