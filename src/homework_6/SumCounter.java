@@ -20,10 +20,11 @@ public class SumCounter {
         int allArraySum = 0;
         List<Worker> sumCounters = getWorkersList(numArray, threadCount);
         sumCounters.forEach((w) -> w.start());
-        sumCounters.forEach((w) -> {
+        sumCounters.forEach((Worker w) -> {
             try {
                 w.join();
             } catch (InterruptedException e) {
+                logger.warning(e.getMessage());
             }
         });
         for (Worker w : sumCounters) {

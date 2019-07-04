@@ -1,6 +1,7 @@
 package homework_6;
 
 
+
 /**
  *
  * @author YBolshakova
@@ -9,10 +10,14 @@ public class Main {
 
     public static void main(String[] args) {   
         String readFromDir = "folderOne\\";
-        String writeToDir = "folderTwo\\";
+        String writeToDir = "C:\\Users\\YBolshakova\\Documents\\gs-maven\\Homework\\";
+        
 
-        FileCopier fc = new FileCopier();
-        fc.multithreadCopier(readFromDir, writeToDir, 2);
+        FileCopier.multithreadCopier(readFromDir, writeToDir, 2);
+    
+        //Worker w = new FileCopier.Worker();
+        //System.out.println(w.copyDirectory(readFromDir, writeToDir));
+        
 
         /*int[] arr = {1, 2, 3, 6, 5, 4, 7, 8, 9, 8, 7, 4, 5, 8, 6, 9, 5, 4, 8};
 
