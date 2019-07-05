@@ -1,5 +1,6 @@
 package homework_6.observer;
 
+import homework_6.observer.Observer.Callback;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;
@@ -13,14 +14,11 @@ public class Main {
     public static void main(String[] args) {
         String path = "folderOne\\";
         
-        Observer ob = new Observer(path,new Callback() {
-            @Override
-            public void execute() {
-               JOptionPane.showMessageDialog(null, "Data in the folder: \" " + path + "\" is chenged");
-            }
+        Observer ob = new Observer(path, () -> {
+            JOptionPane.showMessageDialog(null, "Data in the folder: \" " + path + "\" is chenged");
         });
         
-        ob.startCheck();
+        ob.start();
         try {
             ob.getWorker().join(60000);
             ob.stop();

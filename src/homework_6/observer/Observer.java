@@ -17,42 +17,41 @@ public class Observer {
 
     private static Set<File> curentState;
     private static String path;
-    private static boolean isRunning = true;
+    private static boolean isRunning;
     private static Callback callback;
-    private  Worker worker;
-    
-    public Observer(){
-        
+    private Worker worker;
+
+    public Observer() {
+
     }
-    
-    public Observer(String path, Callback callback){
+
+    public Observer(String path, Callback callback) {
         this.path = path;
-        this.callback = callback;
+        this.callback = callback;        
     }
 
     public Worker getWorker() {
         return worker;
-    }   
-    
-    
-    
-    public void startCheck(){
-        init(path);
-        start();
     }
 
-    public void init(String path) {
+   
+
+    private void init(String path) {
+        if(path == null|| path.isEmpty()){
+            throw new IllegalArgumentException("Path can't be null or empty");
+        }
         curentState = getFiles(path);
     }
 
     public void start() {
+        isRunning = true;
+        init(path);
         worker = new Worker();
-        worker.start();  
+        worker.start();
     }
 
     public void stop() {
-        isRunning=false;
-
+        isRunning = false;
     }
 
     public static Set<File> getFiles(String path) {
@@ -66,20 +65,17 @@ public class Observer {
     }
 
     public static void checkDirect() {
-        Set<File> newState = getFiles(path);        
-        if ((!curentState.containsAll(newState))||(curentState.size()!=newState.size())) {
+        Set<File> newState = getFiles(path);
+        if ((!curentState.containsAll(newState)) || (curentState.size() != newState.size())) {
             curentState = newState;
-            callback.execute();  
-                
-            }
-                      
+            callback.execute();
         }
-    
+    }
 
-    public static class Worker extends Thread { 
+    public static class Worker extends Thread {
 
         public Worker() {
-        }  
+        }
 
         @Override
         public void run() {
@@ -94,5 +90,10 @@ public class Observer {
             }
         }
 
+    }
+
+    public static interface Callback {
+
+        public void execute();
     }
 }

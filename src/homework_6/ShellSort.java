@@ -5,28 +5,30 @@ package homework_6;
  * @author YBolshakova
  */
 public class ShellSort {
-
-    void sort_shell(int[] a) {
-        int i, j, k, h, m = 0,
-                b = a.length;
-        int[] d = {1, 4, 10, 23, 57, 145, 356, 911, 1968, 4711, 11969, 27901,
-            84801, 213331, 543749, 1355339, 3501671, 8810089, 21521774,
-            58548857, 157840433, 410151271, 1131376761, 2147483647};
-        while (d[m] < b) {
-            ++m;
+    
+public void sort (int[] arr) {
+        int increment = arr.length / 2;
+        while (increment >= 1) {
+            for (int startIndex = 0; startIndex < increment; startIndex++) {
+                insertionSort(arr, startIndex, increment);
+            }
+            increment = increment / 2;
         }
-        while (--m >= 0) {
-            k = d[m];
-            for (i = k; i < b; i++) {     // k-сортировка
-                j = i;
-                h = a[i];
-                while ((j >= k) && (a[j - k] > h)) {
-                    a[j] = a[j - k];
-                    j -= k;
+    }
+
+    private void insertionSort (int[] arr, int startIndex, int increment) {
+        for (int i = startIndex; i < arr.length - 1; i = i + increment) {
+            for (int j = Math.min(i + increment, arr.length - 1); j - increment >= 0; j = j - increment) {
+                if (arr[j - increment] > arr[j]) {
+                    int tmp = arr[j];
+                    arr[j] = arr[j - increment];
+                    arr[j - increment] = tmp;
+                } else {
+                    break;
                 }
-                a[j] = h;
             }
         }
     }
+   
 
 }
