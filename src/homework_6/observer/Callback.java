@@ -11,7 +11,7 @@ package homework_6.observer;
  */
 public interface Callback {
     
-    public void checked();
+    public void execute();
         
     
     

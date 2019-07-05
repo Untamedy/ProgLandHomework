@@ -1,5 +1,0 @@
-At the start of the Java platform's lifetime, the JVM was marketed as a web technology for creating Rich Internet Applications. As of 2018, most web browsers and operating systems bundling web browsers do not ship with a Java plug-in, nor do they permit side-loading any non-Flash plug-in. The Java browser plugin was deprecated in JDK 9.[15]
-
-The NPAPI Java browser plug-in was designed to allow the JVM to execute so-called Java applets embedded into HTML pages. For browsers with the plug-in installed, the applet is allowed to draw into a rectangular region on the page assigned to it. Because the plug-in includes a JVM, Java applets are not restricted to the Java programming language; any language targeting the JVM may run in the plug-in. A restricted set of APIs allow applets access to the user's microphone or 3D acceleration, although applets are not able to modify the page outside its rectangular region. Adobe Flash Player, the main competing technology, works in the same way in this respect.
-
-As of June 2015 according to W3Techs, Java applet and Silverlight use had fallen to 0.1% each for all web sites, while Flash had fallen to 10.8%.[16]

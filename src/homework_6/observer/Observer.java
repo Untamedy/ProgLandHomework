@@ -4,6 +4,7 @@ import java.io.File;
 import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Set;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -12,28 +13,49 @@ import java.util.logging.Logger;
  */
 public class Observer {
 
-    private int startFileCount;
+    static final Logger logger = Logger.getLogger(Observer.class.getName());
 
-    Logger logger = Logger.getLogger(Observer.class.getName());
+    private static Set<File> curentState;
+    private static String path;
+    private static boolean isRunning = true;
+    private static Callback callback;
+    private  Worker worker;
     
-    public void init(){
+    public Observer(){
         
     }
     
-    public void start(){
-        
+    public Observer(String path, Callback callback){
+        this.path = path;
+        this.callback = callback;
     }
+
+    public Worker getWorker() {
+        return worker;
+    }   
     
-    public void stop(){
-        
+    
+    
+    public void startCheck(){
+        init(path);
+        start();
     }
 
-    public void checkDirect(String path) {
-        Set<File> curentFilesSet = getFiles(path);
+    public void init(String path) {
+        curentState = getFiles(path);
+    }
+
+    public void start() {
+        worker = new Worker();
+        worker.start();  
+    }
+
+    public void stop() {
+        isRunning=false;
 
     }
 
-    public Set<File> getFiles(String path) {
+    public static Set<File> getFiles(String path) {
         File directory = new File(path);
         Set<File> setOfFiles = new HashSet<>();
         if (directory.isDirectory()) {
@@ -42,5 +64,35 @@ public class Observer {
         }
         return setOfFiles;
     }
+
+    public static void checkDirect() {
+        Set<File> newState = getFiles(path);        
+        if ((!curentState.containsAll(newState))||(curentState.size()!=newState.size())) {
+            curentState = newState;
+            callback.execute();  
+                
+            }
+                      
+        }
     
+
+    public static class Worker extends Thread { 
+
+        public Worker() {
+        }  
+
+        @Override
+        public void run() {
+            while (isRunning) {
+                try {
+                    checkDirect();
+                    logger.info("Folder is checked");
+                    sleep(1000);
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(Observer.class.getName()).log(Level.SEVERE, null, ex);
+                }
+            }
+        }
+
+    }
 }
