@@ -1,4 +1,4 @@
-package homework_6;
+package homework_6.copier;
 
 import java.io.File;
 import java.io.FileInputStream;

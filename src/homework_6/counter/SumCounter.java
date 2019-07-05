@@ -1,4 +1,4 @@
-package homework_6;
+package homework_6.counter;
 
 import java.util.ArrayList;
 import java.util.List;

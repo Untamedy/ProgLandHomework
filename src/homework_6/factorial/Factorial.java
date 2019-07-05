@@ -1,4 +1,4 @@
-package homework_6;
+package homework_6.factorial;
 
 import java.math.BigInteger;
 
