@@ -1,14 +1,15 @@
 package homework_6.factorial;
 
 import java.math.BigInteger;
+import java.util.logging.Logger;
 
 /**
  *
  * @author YBolshakova
  */
-public class Factorial implements Runnable {
-
-    private int num =1;
+public class Factorial {
+    
+     public static Logger logger = Logger.getLogger(Factorial.class.getName());
 
     private Thread[] threads = new Thread[100];
 
@@ -16,48 +17,59 @@ public class Factorial implements Runnable {
 
     }
 
-    public Factorial(int num) {
-        this.num = num;
-    }
-
     public Thread[] getThreads() {
         return threads;
     }
 
-    public int getNum() {
-        return num;
+    public void threadStart() {
+        iniThreads();
+        for (int i = 0; i < threads.length; i += 1) {
+            threads[i].start();
+            logger.info(threads[i].getName() + " started");
+        }
     }
 
     public void iniThreads() {
         for (int i = 0; i < threads.length; i += 1) {
-            threads[i] = new Thread(new Factorial(num), "Thread_" + this.num);
-            num++;
-            System.out.println("thread " + this.num + " created");
+            int num = i + 1;
+            threads[i] = new Thread(new Worker(num), "Thread_" + num);
+            logger.info("thread " + num + " created");
         }
     }
 
-    public BigInteger calcFactorial(int num) {
+    public static BigInteger calcFactorial(int num) {
         BigInteger factorial = new BigInteger("1");
         for (int i = 2; i <= num; i += 1) {
             factorial = factorial.multiply(new BigInteger("" + i));
         }
         return factorial;
     }
-    
-    public void threadStart(){
-        for(int i = 0; i<threads.length;i+=1){
-            threads[i].start();
-            System.out.println(threads[i].getName() + " started");
-        }
-    }
 
-    @Override
-    public void run() {
-        Thread thread = Thread.currentThread();
-        for (int i = 1; i <=this.num; i++) {
-            System.out.println(thread.getName() + " " + i + "!= " + calcFactorial(i));
+    public static class Worker extends Thread {
+
+        private int num = 1;
+
+        public Worker() {
+
         }
 
+        public Worker(int num) {
+            this.num = num;
+        }
+
+        public int getNum() {
+            return num;
+        }
+             
+
+        @Override
+        public void run() {
+            Thread thread = Thread.currentThread();
+            for (int i = 1; i <= this.num; i++) {
+                logger.info(thread.getName() + " " + i + "!= " + calcFactorial(i));
+            }
+
+        }
     }
 
 }

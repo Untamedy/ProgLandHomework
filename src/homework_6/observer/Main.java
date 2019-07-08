@@ -1,6 +1,5 @@
 package homework_6.observer;
 
-import homework_6.observer.Observer.Callback;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 import javax.swing.JOptionPane;

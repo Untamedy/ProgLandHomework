@@ -6,10 +6,8 @@ package homework_6.factorial;
  */
 public class Main {
     public static void main(String[] args) {
-        Factorial factorial = new Factorial();
-        factorial.iniThreads();
+        Factorial factorial = new Factorial();      
         factorial.threadStart();
-    }
-    
+    }    
 
 }

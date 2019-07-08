@@ -24,8 +24,7 @@ public class ShellSort {
                 Worker worker = new Worker(numArray, startIndex, increment);
                 workers.add(worker);
                 worker.start();
-                logger.info("thread start. Result: " + Arrays.toString(numArray));                
-                //insertionSort(numArray, startIndex, increment);
+                logger.info("thread start. Result: " + Arrays.toString(numArray)); 
             }
             for(Worker w: workers){
                 try {
@@ -53,11 +52,7 @@ public class ShellSort {
             }
         }
     }
-
-    
-
-    
-
+ 
     public static class Worker extends Thread {
 
         private int[] array;
