@@ -9,41 +9,41 @@ import java.util.logging.Logger;
  *
  * @author YBolshakova
  */
-public class FileWriter extends Thread{
-     static final Logger logger = Logger.getLogger(FileWriter.class.getName());
-    
+public class FileWriter extends Thread {
+
+    static final Logger logger = Logger.getLogger(FileWriter.class.getName());
+
     private CopierWithLoaderController copier;
     private File writeTo;
-    
-    public FileWriter(CopierWithLoaderController copier){
+
+    public FileWriter(CopierWithLoaderController copier) {
         this.copier = copier;
-        init(); 
+        init();
     }
-    
-    public void init(){        
-       writeTo = new File(copier.getWriteTo(),"File_copy.txt"); 
+
+    public void init() {
+        writeTo = new File(copier.getWriteTo(), "File_copy.txt");
     }
-    
-    public void writeToFile(){              
-        try(FileOutputStream writer = new FileOutputStream(writeTo,false)) { 
-           while(copier.isStop()){
-               logger.info("Writer write to file");    
-               synchronized(copier){
-               writer.write(copier.getReadBytesForWrite());                
-               copier.notify();
-               }
-        } 
+
+    public void writeToFile() {
+        try (FileOutputStream writer = new FileOutputStream(writeTo, false)) {
+            while (copier.isStop()) {
+                logger.info("Writer write to file");
+                synchronized (copier.readerLock) {
+                    writer.write(copier.getReadBytesForWrite());
+                    copier.readerLock.notify();
+                }
+            }
             logger.info("Writer stop");
         } catch (IOException ex) {
             logger.severe(ex.getMessage());
         }
-        
-        
+
     }
 
     @Override
     public void run() {
-        writeToFile();   
+        writeToFile();
     }
 
 }

@@ -25,14 +25,13 @@ public class FileReader extends Thread {
         try (FileInputStream reader = new FileInputStream(readFrom)) {
 
             byte[] buffer = new byte[100];
-            while ((reader.read(buffer)) != -1) {
-                logger.info("Reader read from file");
-                synchronized (copier) {
-                    copier.setReadBytes(buffer);
-                    buffer = new byte[100];
-                    copier.notify();
+            while ((reader.read(buffer)) != -1) {                
+                logger.info("Reader read from file");                 
+                copier.setReadBytes(buffer);                
+                synchronized (copier.loaderLock) {                   
+                    copier.loaderLock.notify();
                 }
-
+                buffer = new byte[100];
             }
             copier.setStop(false);
             logger.info("Reader is stoped");
