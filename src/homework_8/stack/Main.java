@@ -1,4 +1,4 @@
-package homework_8;
+package homework_8.stack;
 
 /**
  *
