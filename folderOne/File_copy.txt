@@ -1,1 +1,1 @@
-At the start of the Java platform's lifetime, the JVM was marketed as a web technology for creating Rich Internet Applications. As of 2018, most web browsers and operating systems bundling web browser
+At the start of the Java platform's lifetime, the JVM was marketed as a web technology for creating 

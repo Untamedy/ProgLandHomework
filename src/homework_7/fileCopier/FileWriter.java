@@ -3,6 +3,7 @@ package homework_7.fileCopier;
 import java.io.File;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.logging.Level;
 import java.util.logging.Logger;
 
 /**
@@ -28,11 +29,13 @@ public class FileWriter extends Thread {
     public void writeToFile() {
         try (FileOutputStream writer = new FileOutputStream(writeTo, false)) {
             while (copier.isStop()) {
-                logger.info("Writer write to file");
-                synchronized (copier.readerLock) {
-                    writer.write(copier.getReadBytesForWrite());
-                    copier.readerLock.notify();
+                byte[] toWrite;
+                toWrite = copier.getReadBytesForWrite();
+                writer.write(toWrite);
+                synchronized (copier.loaderLock) {
+                    copier.loaderLock.notifyAll();
                 }
+                logger.info("Writer write to file");
             }
             logger.info("Writer stop");
         } catch (IOException ex) {
@@ -43,7 +46,9 @@ public class FileWriter extends Thread {
 
     @Override
     public void run() {
+
         writeToFile();
+
     }
 
 }

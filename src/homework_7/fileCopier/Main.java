@@ -13,7 +13,7 @@ public class Main {
         String writeTo = "folderOne\\";
         
         CopierWithLoaderController copier = new CopierWithLoaderController(readFrom, writeTo);
-        copier.copy();       
+        copier.copy();          
     }
 
 }

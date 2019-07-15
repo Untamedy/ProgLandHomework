@@ -23,17 +23,11 @@ public class LoaderController extends Thread {
     }
 
     public void countLoadPercentage() {
-        isRead += copier.getReadBytes().length;
-        synchronized (copier.writerLock) {
-                copier.writerLock.notify();
-            }
+        isRead += copier.getSize();
         if (fileSize > 0) {
             percentage = (int) ((isRead * 100) / fileSize);
             logger.info("Current percentage of loading is " + percentage);
-            copier.setChenged(false);
-            
         }
-
     }
 
     public void countSize(String path) {
@@ -41,14 +35,12 @@ public class LoaderController extends Thread {
         if (!file.isDirectory()) {
             fileSize = file.length();
         }
-
     }
 
     @Override
     public void run() {
-        logger.info("Counter started");
-        while (copier.isStop()) {            
-                countLoadPercentage();               
+        while (percentage < 100) {
+            countLoadPercentage();
         }
 
     }
