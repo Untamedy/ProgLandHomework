@@ -1,11 +1,13 @@
 package homework_3;
 
+import java.util.List;
+
 /**
  *
  * @author YBolshakova
  */
 public interface MilitaryRegistration {
     
-    public Student [] selectStudentsByAge(int age, boolean sex);
+    public List<Student> selectStudentsByAge(int age, boolean sex);
 
 }

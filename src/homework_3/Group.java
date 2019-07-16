@@ -6,7 +6,6 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.io.PrintWriter;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Comparator;
 import java.util.List;
 import java.util.Map;
@@ -25,25 +24,25 @@ public class Group implements MilitaryRegistration {
 
     private int groupCountr = 1;
 
-    private Student[] students = new Student[10];
+    private List<Student> students = new ArrayList<>();
 
     public Group() {
     }
 
-    public Group(Student[] newGroupOfStudents) {
+    public Group(List<Student> newGroupOfStudents) {
         this.students = newGroupOfStudents;
     }
 
-    public Student[] getStudents() {
+    public List<Student> getStudents() {
         return students;
     }
 
-    public void setStudents(Student[] students) {
+    public void setStudents(List<Student> students) {
         this.students = students;
     }
 
     public void addNewStudent(Dialog dialog) {
-        if (groupCountr > students.length) {
+        if (groupCountr > 10) {
             throw new MyOwnException();
         }
         Student s = null;
@@ -63,24 +62,16 @@ public class Group implements MilitaryRegistration {
         }
     }
 
-    public void addStudentToArray(Student student, Student[] s) {
-        for (int i = 0; i < s.length; i++) {
-            if (s[i] == null) {
-                s[i] = student;
-                logger.log(Level.INFO, "Student {0} added successful", student.getLastname());
-                break;
-            }
-        }
-
+    public void addStudentToArray(Student student, List<Student> students) {
+        students.add(student);
+        logger.log(Level.INFO, "Student {0} added successful", student.getLastname());
     }
 
     public void removeStudent(Student student) {
-        for (int i = 0; i < students.length; i++) {
-            if (null != students[i] && students[i].equals(student)) {
-                students[i] = null;
-                groupCountr--;
-                logger.log(Level.INFO, "Student {0} removed successful", student.getLastname());
-            }
+        if (students.contains(student)) {
+            students.remove(student);
+            groupCountr--;
+            logger.log(Level.INFO, "Student {0} removed successful", student.getLastname());
         }
     }
 
@@ -99,8 +90,8 @@ public class Group implements MilitaryRegistration {
         return resultToString(students);
     }
 
-    public Student[] sortByLastname() {
-        Arrays.sort(students, new Comparator<Student>() {
+    public List<Student> sortByLastname() {
+        students.sort(new Comparator<Student>() {
             @Override
             public int compare(Student s1, Student s2) {
                 if (s1 == null && s2 == null) {
@@ -119,7 +110,7 @@ public class Group implements MilitaryRegistration {
         return students;
     }
 
-    public Student[] sortByParameter() {
+    public List<Student> sortByParameter() {
         boolean isRevers = selectSortType();
         Map<String, Comparator<Student>> comparatorMap = Sorter.createComporatorMap(isRevers);
         String[] parameters = {"Name", "Lastname", "Age", "Height", "Weight", "Sex"};
@@ -131,7 +122,7 @@ public class Group implements MilitaryRegistration {
         }
         Comparator<Student> comparator = comparatorMap.get(sort);
         if (comparator != null) {
-            Arrays.sort(students, comparator);
+            students.sort(comparator);
         } else {
             return students;
         }
@@ -139,8 +130,8 @@ public class Group implements MilitaryRegistration {
     }
 
     @Override
-    public Student[] selectStudentsByAge(int age, boolean sex) {
-        Student[] studentsForArmy = new Student[10];
+    public List<Student> selectStudentsByAge(int age, boolean sex) {
+        List<Student> studentsForArmy = new ArrayList<>();
         for (Student s : students) {
             if (s != null) {
                 if ((s.getAge() > 18) && (!s.isSex())) {
@@ -151,7 +142,7 @@ public class Group implements MilitaryRegistration {
         return studentsForArmy;
     }
 
-    public String resultToString(Student[] studentsArray) {
+    public String resultToString(List<Student> studentsArray) {
         StringBuilder studentsAfterSort = new StringBuilder();
         for (Student student : studentsArray) {
             if (student != null) {
@@ -183,7 +174,7 @@ public class Group implements MilitaryRegistration {
 
     public List<Group> readFromFile(String path) {
         List<Group> faculty = new ArrayList<>();
-        Student[] group = new Student[10];
+        List<Student> group = new ArrayList<>();
         int counter = 1;
         try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
             String line = "";
@@ -201,7 +192,7 @@ public class Group implements MilitaryRegistration {
                 } else {
                     faculty.add(new Group(group));
                     counter = 0;
-                    group = new Student[10];
+                    group = new ArrayList<>();
                 }
             }
             faculty.add(new Group(group));

@@ -40,7 +40,7 @@ public class Main {
 
         groupOfStudents.saveToFile("students.txt");
         List<Group> list = groupOfStudents.readFromFile("students.txt");
-        list.stream().map((g) -> g.getStudents()).forEachOrdered((Student[] ss) -> {
+        list.stream().map((g) -> g.getStudents()).forEachOrdered((List<Student> ss) -> {
             System.out.println("*****");
             for(Student s:ss){
                 if(s!=null){

@@ -1,0 +1,4 @@
+Lastname,Name,Height,Weight,Age,Sex
+A,A,3,3,3,female
+A,A,3,3,3,female
+S,S,6,6,6,female

@@ -57,9 +57,10 @@ public class Dialog {
     }
 
     public int inputAge() throws ClickCancelException {
-        int age = 0;
-        try {
-            age = Integer.valueOf(getData(numberRehex, "age"));
+        int age = 0;       
+        try { 
+            String result = getData(numberRehex, "age");
+            age = Integer.valueOf(result);           
         } catch (NotValidDataException e) {
             if (e.getSelectResult() == JOptionPane.NO_OPTION) {
                 throw new ClickCancelException();
@@ -110,7 +111,7 @@ public class Dialog {
             throw new ClickCancelException();
         }
         data = data.trim();
-        if (!data.matches(regex)) {
+        if (!data.matches(regex)||data.isEmpty()) {
             throw new NotValidDataException();
         }
         return data;
