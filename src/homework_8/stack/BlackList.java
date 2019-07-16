@@ -30,6 +30,9 @@ public class BlackList {
     }
     
     public void remove(Object object){
+        if(contain(object)){
+            blackList.remove(object.getClass());
+        }
         
     }
     
