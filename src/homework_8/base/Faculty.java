@@ -25,14 +25,14 @@ public class Faculty {
 
     }
 
-    public List<GroupOfStudent> createFaculty(List<Student> list, int groupNum) {
+    public List<GroupOfStudent> createFaculty(List<Student> list, int groupNum, int groupSize) {
         groups = new ArrayList<>();
-        GroupOfStudent group = new GroupOfStudent(groupNum, 5);
+        GroupOfStudent group = new GroupOfStudent(groupNum, groupSize);
         for (Student s : list) {
             if (group.isFull()) {
                 groups.add(group);
                 groupNum++;
-                group = new GroupOfStudent(groupNum, 5);
+                group = new GroupOfStudent(groupNum, groupSize);
                 group.addStudent(s);
             } else {
                 group.addStudent(s);
@@ -46,10 +46,8 @@ public class Faculty {
 
     public void addToBase(String path) {
         File file = new File(path);
-        try (ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(file, true))) {            
-                writer.writeObject(groups);                
-             
-           
+        try (ObjectOutputStream writer = new ObjectOutputStream(new FileOutputStream(file))) {            
+                writer.writeObject(groups); 
         } catch (IOException ex) {
             LOGGER.severe(ex.getMessage());
         }
