@@ -50,20 +50,23 @@ public class Counter {
         }
     }
 
-    public Map<Character, Integer> count() {        
+    public Map<Character, Integer> count() {
         result = new HashMap<>();
         int countResult = 0;
         for (Character c : characters) {
             Character tmp = c;
             Iterator<Character> iterator = characters.iterator();
             while (iterator.hasNext()) {
+                if (result.containsKey(tmp)) {
+                    break;
+                }
                 c = iterator.next();
                 if (c.equals(tmp)) {
-                    countResult++;                                   
+                    countResult++;
                 }
             }
-                result.putIfAbsent(tmp, countResult);
-                countResult = 0;            
+            result.putIfAbsent(tmp, countResult);
+            countResult = 0;
         }
         return result;
     }
@@ -76,7 +79,7 @@ public class Counter {
                 if (compare == 0) {
                     return -1;
                 } else {
-                    return compare*-1;
+                    return compare * -1;
                 }
             }
         };
