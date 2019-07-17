@@ -54,19 +54,12 @@ public class Counter {
         result = new HashMap<>();
         int countResult = 0;
         for (Character c : characters) {
-            Character tmp = c;
-            Iterator<Character> iterator = characters.iterator();
-            while (iterator.hasNext()) {
-                if (result.containsKey(tmp)) {
-                    break;
-                }
-                c = iterator.next();
-                if (c.equals(tmp)) {
-                    countResult++;
-                }
+            Integer quantity = result.get(c);
+            if (quantity != null) {
+                result.put(c, quantity + 1);
+            } else {
+                result.put(c, 1);
             }
-            result.putIfAbsent(tmp, countResult);
-            countResult = 0;
         }
         return result;
     }
