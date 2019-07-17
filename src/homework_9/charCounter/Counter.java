@@ -29,6 +29,12 @@ public class Counter {
         this.path = path;
     }
 
+    public List<Character> getCharacters() {
+        return characters;
+    }
+    
+    
+
     public Map<Character, Integer> countCharacters() {
         read();
         Map<Character, Integer> mapOfresults = count();
@@ -41,7 +47,7 @@ public class Counter {
             int symbol;
             while ((symbol = reader.read()) != -1) {
                 if (Character.isAlphabetic(symbol)) {
-                    char ch = (char) symbol;
+                    Character ch = (char) symbol;
                     characters.add(Character.toLowerCase(ch));
                 }
             }
@@ -69,7 +75,7 @@ public class Counter {
             public int compare(K o1, K o2) {
                 int compare = map.get(o2).compareTo(map.get(o1));
                 if (compare == 0) {
-                    return -1;
+                    return 0;
                 } else {
                     return compare * -1;
                 }
