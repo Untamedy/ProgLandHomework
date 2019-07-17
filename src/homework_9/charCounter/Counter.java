@@ -51,8 +51,7 @@ public class Counter {
     }
 
     public Map<Character, Integer> count() {
-        result = new HashMap<>();
-        int countResult = 0;
+        result = new HashMap<>();       
         for (Character c : characters) {
             Integer quantity = result.get(c);
             if (quantity != null) {
