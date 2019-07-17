@@ -1,4 +1,6 @@
-package homework_9;
+package homework_9.task_one;
+
+import homework_9.task_one.FirstTask;
 
 /**
  *
