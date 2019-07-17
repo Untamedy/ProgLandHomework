@@ -47,9 +47,7 @@ public class Counter {
             }
         } catch (IOException exception) {
             System.out.println(exception.getMessage());
-
         }
-
     }
 
     public Map<Character, Integer> count() {        
