@@ -16,6 +16,7 @@ public class Main {
         HashMap<String, String> map =  creater.reader();       
         
         creater.addNewWord("was", "быть");
+        
         Translator t = new Translator(map, from, to);
         t.translate();
         
