@@ -1,2016 +1,2015 @@
-ability-способность
-able-знающий
-about-кругом
-about-о
-above-наверху
-abroad-	за границей
-absolutely-	совершенно
-accept-	принимать
-acceptable-	приемлемый
-accident-	несчастный случай
-accidental-	случайный
-accidentally-	случайно
-accommodation-	помещение
-according to-	в соответствии с
-account-	счет
-achieve-	добиваться
-achievement-	достижение
+ability-	здатність
+able-	знає
+about-	кругом
+about-	про
+above-	нагорі
+abroad-	за кордоном
+absolutely-	абсолютно
+accept-	приймати
+acceptable-	прийнятний
+accident-	нещасний випадок
+accidental-	випадковий
+accidentally-	випадково
+accommodation-	приміщення
+according to-	відповідно до
+account-	рахунок
+achieve-	домагатися
+achievement-	досягнення
 across-	поперек
-act-	действовать
-action-	действие
-active-	активный
-activity-	деятельность
-actual-	фактический
-actually-	фактически
-add-	прибавлять
-address-	адрес
-address-	адресовать
-adjective-	имя прилагательное
-admire-	любоваться
-admit-	допускать
-advanced-	передовой
-advantage-	преимущество
-advice-	совет
-advise-	советовать
-afford-	быть в состоянии
-afraid-	испуганный
-after-	после
-afternoon-	время после полудня
-afterwards-	впоследствии
-again-	вновь
-against-	прямо напротив
-age-	возраст
-ago-	тому назад
-agree-	соглашаться
-agreement-	согласие
+act-	діяти
+action-	дію
+active-	активний
+activity-	діяльність
+actual-	фактичний
+actually-	фактично
+add-	додавати
+address-	адресу
+address-	адресувати
+adjective-	прикметник
+admire-	милуватися
+admit-	допускати
+advanced-	передовий
+advantage-	перевага
+advice-	рада
+advise-	радити
+afford-	бути в змозі
+afraid-	переляканий
+after-	після
+afternoon-	час після полудня
+afterwards-	згодом
+again-	знову
+against-	прямо навпаки
+age-	вік
+ago-	тому
+agree-	погоджуватися
+agreement-	згоду
 ahead-	вперед
-aim-	намерение
-aim-	стремиться
-air-	воздух
-alive-	живой
+aim-	намір
+aim-	прагнути
+air-	повітря
+alive-	живий
 all-	весь
-allow-	позволять
-almost-	почти
-alone-	одинокий
-along-	вдоль
-along-	в том же направлении
-already-	уже
-also-	тоже
-although-	хотя
-always-	всегда
-among-	между
+allow-	поз Воля
+almost-	майже
+alone-	самотній
+along-	уздовж
+along-	в тому ж напрямку
+already-	вже
+also-	теж
+although-	хоча
+always-	завжди
+among-	між
 amount-	величина
-and-	и
-angry-	рассерженный
-announce-	объявлять
-another-	другой
-answer-	ответ
-answer-	отвечать
-anxious-	озабоченный
+and-	і
+angry-	розсерджений
+announce-	оголошувати
+another-	іншу
+answer-	відповідь
+answer-	відповідати
+anxious-	стурбований
 any-	всякий
-any-	нисколько
-anybody-	кто-нибудь
-anyone-	кто-нибудь
-anything-	что-нибудь
-anyway = anyhow-	так или иначе
-anywhere-	где-нибудь
-apart-	в стороне
-apologize = apologise-	извиняться
+any-	анітрохи
+anybody-	хтось
+anyone-	хтось
+anything-	що-небудь
+anyway = anyhow-	так чи інакше
+anywhere-	десь
+apart-	в стороні
+apologize = apologise-	вибачатися
 apparently-	очевидно
-appeal-	призыв
-appeal-	обращаться
-appear-	показываться
-appearance-	внешность
-apply-	обращаться
-approval-	одобрение
-approve-	утверждать
-area-	площадь
-argue-	спорить
-argument-	довод
-arm-	рука (от кисти до плеча)
-around-	всюду
-arrange-	приводить в порядок
-arrangement-	размещение
-arrival-	прибытие (at
-arrive-	прибывать
-art-	искусство
-artificial-	искусственный
-as-	в качестве
-ashamed-	пристыженный
-ask-	спрашивать
+appeal-	заклик
+appeal-	звертатися
+appear-	показуватися
+appearance-	зовнішність
+apply-	звертатися
+approval-	схвалення
+approve-	стверджувати
+area-	площа
+argue-	сперечатися
+argument-	довід
+arm-	рука (від кисті до плеча)
+around-	усюди
+arrange-	приводити в порядок
+arrangement-	розміщення
+arrival-	прибуття (at
+arrive-	прибувати
+art-	мистецтво
+artificial-	штучний
+as-	як
+ashamed-	присоромлений
+ask-	питати
 at-	в
-attach-	прикреплять
-attempt-	попытка
-attempt-	пытаться
-attention-	внимание
-attitude-	позиция
-attract-	привлекать
-attractive-	заманчивый
-authority-	власть
-autumn-	осень
-available-	доступный
-average-	среднее
-avoid-	избегать
-awake-	не спящий
-aware-	знающий
-away-	прочь
+attach-	прикріплювати
+attempt-	спроба
+attempt-	намагатися
+attention-	увагу
+attitude-	позиція
+attract-	при залучати
+attractive-	привабливий
+authority-	влада
+autumn-	осінь
+available-	доступний
+average-	середнє
+avoid-	уникати
+awake-	не спляча
+aware-	знає
+away-	геть
 back-	спина
-back-	назад
-back-	поддерживать
+back-	тому
+back-	підтримувати
 backwards-	назад
-bad-	плохой
-badly-	плохо
+bad-	поганий
+badly-	погано
 bag-	сумка
-balance-	весы
-ball-	шар
+balance-	ваги
+ball-	куля
 band-	оркестр
 bang-	удар
-bang-	ударять
+bang-	і бити
 bank-	банк
 bar-	бар
 base-	база
-base-	базировать
-basic-	составляющий основу
-basically-	в своей основе; по существу
+base-	базувати
+basic-	що становить основу
+basically-	в своїй основі; по суті
 basis-	базис
 bath-	ванна
 battery-	батарея
-be-	быть
-bear-	терпеть
-beat-	бить
-beautiful-	красивый
-because-	потому что
-become-	становиться
+be-	бути
+bear-	терпіти
+beat-	бити
+beautiful-	красивий
+because-	тому що
+become-	ставати
 before-	перед
-before-	впереди
-before-	прежде чем
-begin-	начинать (ся)
-beginning-	начало
-behave-	вести себя
-behaviour-	поведение
-behind-	сзади
-behind-	задний
-belief-	вера
-believe-	верить
-belong-	принадлежать
-below-	ниже
-bend-	сгибать (ся)
-beneath-	под
-benefit-	выгода
-beside-	рядом с
-best-	лучший
-best-	лучше всего
-bet-	пари
-bet-	держать пари
-better-	лучший
-better-	лучше
-between-	между
-beyond-	за
-big-	большой
-bill-	счет
+before-	попереду
+before-	перш ніж
+begin-	починати (ся)
+beginning-	почало
+behave-	поводитися
+behaviour-	поведінку
+behind-	ззаду
+behind-	задній
+belief-	віра
+believe-	вірити
+belong-	належати
+below-	нижче
+bend-	згинати (ся)
+beneath-	під
+benefit-	вигода
+beside-	поруч з
+best-	кращий
+best-	найкраще
+bet-	парі
+bet-	тримати парі
+better-	кращий
+better-	краще
+between-	між
+beyond-	
+big-	велику
+bill-	рахунок
 bin-	ящик
-birth-	рождение
-birthday-	день рождения
-bit-	кусочек
+birth-	народження
+birthday-	день народження
+bit-	шматочок
 bite-	укус
-bite-	кусать (ся)
-black-	черный
-black-	черный цвет
-blame-	упрек
-blame-	осуждать
-blind-	слепой
+179. bite-	кусати (ся)
+black-	чорний
+black-	чорний колір
+blame-	докір
+blame-	засуджувати
+blind-	сліпий
 block-	блок
-block-	заграждать
-blow-	веять
-blue-	голубой
-board-	доска
-boat-	лодка
-body-	тело
-boil-	варить (ся)
+block-	примусити
+blow-	віяти
+blue-	блакитний
+board-	дошка
+boat-	човен
+body-	тіло
+boil-	варити (ся)
 book-	книга
-book-	вносить в книгу
-border-	граница
-bored-	скучающий
-boring-	скучный
-born-	родившийся
-borrow-	одалживать
-both-	оба
-bother-	беспокоить(ся)
+book-	вносити в книгу
+border-	межа
+bored-	нудьгуючий
+boring-	нудний
+born-	народився
+borrow-	позичати
+both-	обидва
+bother-	турбувати (ся)
 bottom-	дно
-bottom-	нижний
-bound-	связанный
-brain-	мозг
-branch-	ветвь
-brave-	смелый
-bread-	хлеб
-break-	перерыв
-break-	ломать
-break down-	разрушать
-break in-	вламываться
-break into-	вламываться
-break out-	выламывать
-break through-	прорваться
-break up-	крошиться на мелкие части
-breakfast-	завтрак
-breath-	дыхание
-breathe-	дышать
-bridge-	мост
+bottom-	ниж ий
+bound-	пов'язаний
+brain-	мозок
+branch-	гілка
+brave-	сміливий
+bread-	хліб
+break-	перерву
+break-	ламати
+break down-	руйнувати
+break in-	ломитися
+break into-	ломитися
+break out-	виламувати
+break through-	прорватися
+break up-	кришитися на дрібні частини
+breakfast-	сніданок
+breath-	дихання
+breathe-	дихати
+bridge-	міст
 brief-	короткий
-bright-	яркий
-bring-	приносить
-bring back-	приносить обратно
-bring down-	свалить
-bring forward-	выдвигать (предложение)
-bring up-	приводить
+bright-	яскравий
+bring-	приносити
+bring back-	приносити назад
+bring down-	звалити
+bring forward-	висувати (пропозиція)
+bring up-	приводити
 broad-	широкий
-broken-	разбитый
+broken-	розбитий
 brother-	брат
-brown-	коричневый
-brush-	щетка
-brush-	чистить щеткой
-build-	строить
-building-	здание
-bunch-	связка
-burn-	гореть
-burst-	лопаться
-bury-	хоронить
+brown-	коричневий
+brush-	щітка
+brush-	чистити щіткою
+build-	будувати
+building-	будинок
+bunch-	зв'язка
+burn-	горіти
+burst-	лопатися
+bury-	ховати
 bus-	автобус
-bush-	куст
-business-	дело
-busy-	занятой
+bush-	кущ
+business-	справу
+busy-	зайнятої
 but-	а
-but-	кроме
+but-	крім
 butter-	масло
-buy-	покупать
+buy-	купувати
 by-	у
-by-	близко
-bye-	до свидания
-call-	тефонный звонок
-call-	кричать
-call at-	останавливаться (где -л.)
-call back-	перезванивать кому-л.
-call off-	отменять
-call out-	выкрикивать
-call up-	вызывать
-calm-	спокойный
-calmly-	спокойно
-can-	мочь
+by-	близько
+bye-	до побачення
+call-	тефонний дзвінок
+call-	кричати
+call at-	зупинятися (де-л.)
+call back-	передзвонювати кому-л.
+call off-	скасовувати
+call out-	викрикувати
+call up-	викликати
+calm-	спокійний
+calmly-	спокійно
+can-	могти
 cap-	кепка
-capital-	столица
-car-	автомобиль
-card-	карточка
-care-	забота
-care-	заботиться (for
-careful-	осторожный
-careless-	беззаботный
-carry-	носить
-case-	случай
-catch-	ловить
+capital-	столиця
+car-	автомобіль
+card-	картка
+care-	турбота
+care-	піклуватися (for
+careful-	обережний
+careless-	безтурботний
+carry-	носити
+case-	випадок
+catch-	ловити
 cause-	причина
-cause-	послужить причиной/поводом для ч-л.
+cause-	послужити причиною / приводом для ч-л.
 centimetre-	сантиметр
-central-	центральный
+central-	центральний
 centre-	центр
-century-	столетие
-certain-	определенный
-certainly-	конечно
-challenge-	(сложная) проблема
-chance-	возможность
-change-	перемена
-change-	менять (ся)
+century-	сторіччя
+certain-	певний
+certainly-	звичайно
+challenge-	(складна) проблема
+chance-	можливість
+change-	зміна
+change-	міняти (ся)
 character-	характер
-characteristic-	характерная черта
+characteristic-	характерна риса
 charge-	плата
-charge-	назначать
-chase-	гнаться
-chat-	непринужденно болтать
-cheap-	дешевый
-cheat-	обманывать
+charge-	призначати
+chase-	гнатися
+chat-	невимушено базікати
+cheap-	дешевий
+cheat-	обманювати
 check-	контроль
-check-	проверять
-cheek-	щека
+check-	перевіряти
+cheek-	щока
 cheque-	чек
-chief-	главный
-child-	ребенок
-children-	дети
-chin-	подбородок
-choice-	выбор
-choose-	выбирать
-church-	церковь
-cinema-	кинотеатр
-circle-	круг
-circumstance-	обстоятельство
-city-	город
-claim-	требование
-claim-	требовать
-class-	класс
-classroom-	классная комната
-clean-	чистый
-clean-	чистить
-clear-	чистый
-clear-	очищать
+chief-	головний
+child-	дитина
+children-	діти
+chin-	підборіддя
+choice-	вибір
+choose-	вибирати
+church-	церква
+cinema-	кінотеатр
+circle-	коло
+circumstance-	обставина
+city-	місто
+claim-	вимога
+claim-	требо вать
+class-	клас
+classroom-	класна кімната
+clean-	чистий
+clean-	чистити
+clear-	чистий
+clear-	очищати
 clearly-	ясно
-clever-	умный
+clever-	розумний
 climb-	карапкаться
-close-	закрывать (ся)
-close-	близкий
-closed-	закрытый
-closely-	близко
-clothes-	одежда
+close-	закривати (ся)
+close-	близький
+closed-	закритий
+closely-	близько
+clothes-	одяг
 club-	клуб
-clue-	ключ (к разгадке)
+clue-	ключ (до розгадки)
 coat-	пальто
-coffee-	кофе
-cold-	холодный
-collect-	собирать
-collection-	коллекция
-colour-	цвет
-combination-	сочетание
-combine-	соединяться
-come-	приходить
-come back-	возвращаться
-come down-	спускаться
-come from-	приходить откуда-л.
-come in-	входить
-come off-	отрываться
-come out-	выходить
-come over-	приезжать
-come round-	заходить ненадолго
-come up-	подниматься
+coffee-	кави
+cold-	холодний
+collect-	збирати
+collection-	колекція
+colour-	колір
+combination-	поєднання
+combine-	з'єднуватися
+come-	приходити
+come back-	повертатися
+come down-	спускатися
+come from-	приходити звідкись л.
+come in-	входити
+come off-	відриватися
+come out-	виходити
+come over-	приїжджати
+come round-	заходити ненадовго
+come up-	підніматися
 comfort-	комфорт
-comfortable-	комфортный
+comfortable-	комфортний
 command-	команда
-comment-	комментарий
-comment-	комментировать
-commit-	совершать (преступление)
-common-	общее
-common-	общий
-communicate-	сообщать
-communication-	коммуникация
-community-	сообщество
-company-	компания
-compare-	сравнивать
-compete-	состязаться
-complain-	жаловаться
-complaint-	жалоба
-complete-	полный
-complete-	завершать
-completely-	вполне
-complicated-	запутанный
-computer-	компьютер
-concentrate-	сосредоточивать (ся)
-concentration-	концентрация
-concern-	отношение
-concerned-	заинтересованный
-concerning-	касательно
-conclusion-	умозаключение
-condition-	условие
-conduct-	сопровождать
-confidence-	вера
-confident-	уверенный
-confuse-	смешивать
-confused-	смущенный; озадаченный
-confusing-	сбивающий с толку
-congratulate-	поздравлять
-congratulations-	поздравление
-connect-	соединять (ся)
-connected-	связанный с кем-л.
-connection-	связь
-consider-	рассматривать
-considering-	учитывая
-consist-	состоять
-constantly-	непрерывно
-consult-	советоваться
+comment-	коментар
+comment-	коментувати
+commit-	здійснювати (злочин)
+common-	загальне
+common-	загальний
+communicate-	повідомляти
+communication-	комунікація
+community-	співтовариство
+company-	компанія
+compare-	порівнювати
+compete-	змагатися
+complain-	скаржитися
+complaint-	скарга
+complete-	повний
+complete-	завершувати
+completely-	впо лне
+complicated-	заплутаний
+computer-	комп'ютер
+concentrate-	зосереджувати (ся)
+concentration-	концентрація
+concern-	ставлення
+concerned-	зацікавлений
+concerning-	щодо
+conclusion-	умовивід
+condition-	умова
+conduct-	супроводжувати
+confidence-	віра
+confident-	впевнений
+confuse-	змішувати
+confused-	збентежений; спантеличений
+confusing-	збиває з пантелику
+congratulate-	вітати
+congratulations-	привітання
+connect-	з'єднувати (ся)
+connected-	пов'язаний з ким-л.
+connection-	зв'язок
+consider-	розглядати
+considering-	з огляду на
+consist-	складатися
+constantly-	безперервно
+consult-	радитися
 contact-	контакт
-contact-	связываться
-contain-	содержать
+contact-	зв'язуватися
+contain-	містити
 container-	контейнер
-content-	содержимое
-content-	довольный
-contents-	содержимое
-continue-	продолжать (ся)
-contrast-	различие
-contrast-	сопоставлять
-contribute-	способствовать
-control-	надзор
-control-	управлять
-convenient-	удобный
-conversation-	разговор
-convince-	убеждать
-convinced-	убежденный
-convincing-	убедительный
-cook-	готовить
-cool-	прохладный
-cope-	справиться
-copy-	копия
-copy-	копировать
-corner-	угол
-correct-	правильный
-correct-	исправлять
-correction-	исправление
-cost-	цена
-cost-	стоить
-cough-	кашлять
-could-	прош. вр. от can
-count-	считать
-country-	страна
+content-	вміст
+content-	задоволений
+contents-	вміст
+continue-	продовжувати (ся)
+contrast-	відмінність
+contrast-	зіставляти
+contribute-	сприяти
+control-	нагляд
+control-	управляти
+convenient-	зручний
+conversation-	розмова
+convince-	переконувати
+convinced-	переконаний
+convincing-	переконливий
+cook-	готувати
+cool-	прохолодний
+cope-	впоратися
+copy-	копія
+copy-	копіювати
+corner-	кут
+correct-	правильний
+correct-	виправляти
+correction-	виправлення
+cost-	ціна
+cost-	коштувати
+cough-	кашляти
+could-	бавовняні. вр. від can
+count-	вважати
+country-	країна
 couple-	пара
 course-	курс
-cover-	крышка
-cover-	накрывать
-crash-	грохот
-crash-	рушиться
-crazy-	ненормальный
-create-	создавать
-creature-	создание
-crime-	преступление
-crisis-	кризис
+cover-	кришка
+cover-	накривати
+crash-	гуркіт
+crash-	валитися
+crazy-	ненормальний
+create-	створювати
+creature-	створення
+crime-	злочин
+crisis-	криза
 criticism-	критика
-criticize-	критиковать
-cross-	крест
-cross-	перекрещивать
-crowd-	толпа
-crowded-	переполненный
-cruel-	жестокий
-cruelty-	жестокость
+criticize-	критикувати
+cross-	хрест
+cross-	перехрещувати
+crowd-	натовп
+crowded-	переповнений
+cruel-	жорстокий
+cruelty-	жорстокість
 cry-	плач
-cry-	плакать
+cry-	плакати
 culture-	культура
-curious-	любопытный
-custom-	обычай
-cut-	резать
-cut-	разрез
-damage-	вред
-damage-	повреждать
-damp-	влажный
-dance-	танец
-dance-	танцевать
-danger-	опасность
-dangerous-	опасный
-dare-	осмеливаться
-dark-	темный
+curious-	цікавий
+custom-	звичай
+cut-	різати
+cut-	розріз
+damage-	шкоду
+damage-	пошкоджувати
+damp-	вологий
+dance-	танець
+dance-	танцювати
+danger-	небезпека
+dangerous-	небезпечний
+dare-	вирішуватися
+dark-	темний
 date-	дата
 day-	день
-dead-	мертвый
-deaf-	глухой
-deal-	сделка
-dear-	дорогой
-debt-	долг
-decide-	решать (ся)
-decision-	решение
-declaration-	декларация
-declare-	заявлять
-deep-	глубокий
-deep-	глубоко
-defeat-	одержать победу
-defend-	защищать (ся)
-definite-	ясный
-degree-	степень
-deliberate-	намеренный
-deliberately-	сознательно
-delicate-	нежный
-delight-	удовлетворение
-deliver-	доставлять
-demand-	требовать
-demonstrate-	показывать
-depend-	зависеть
-describe-	описывать
-description-	описание
-deserve-	заслуживать
+dead-	мертвий
+deaf-	глухий
+deal-	угода
+dear-	дорогий
+debt-	борг
+decide-	вирішувати (ся)
+decision-	рішення
+declaration-	декларація
+declare-	заявляти
+deep-	глибокий
+deep-	глибоко
+defeat-	здобути перемогу
+defend-	захищати (ся)
+definite-	ясний
+degree-	ступінь
+deliberate-	навмисний
+deliberately-	свідомо
+delicate-	ніжний
+delight-	задоволення
+deliver-	доставляти
+demand-	треб вать
+demonstrate-	показувати
+depend-	залежати
+describe-	описувати
+description-	опис
+deserve-	заслуговувати
 design-	проект
-design-	разрабатывать
-desperate-	безнадежный; бесперспективный
-destroy-	разрушать
+design-	розробляти
+desperate-	безнадійний; безперспективний
+destroy-	руйнувати
 detail-	деталь
-determined-	решительный
-develop-	развивать (ся)
-development-	развитие
-die-	умереть
-difference-	разница
-different-	различный
-difficult-	трудный
-difficulty-	трудность
-dig-	копать
-dinner-	обед
-direct-	прямой
-direct-	руководить
-direction-	направление
-disagree-	не совпадать
-disappear-	исчезать
-disappointed-	разочарованный
-disapprove-	осуждать
-discover-	обнаруживать
-discovery-	открытие
-discuss-	обсуждать
-discussion-	дискуссия
-disgusting-	противный
+determined-	рішучий
+develop-	розвивати (ся)
+development-	розвиток
+die-	померти
+difference-	різниця
+different-	різний
+difficult-	важкий
+difficulty-	труднощі
+dig-	копати
+dinner-	обід
+direct-	прямий
+direct-	керувати
+direction-	напрямок
+disagree-	не збігатися
+disappear-	зникати
+disappointed-	розчарований
+disapprove-	засуджувати
+discover-	виявляти
+discovery-	відкриття
+discuss-	обговорювати
+discussion-	дискусія
+disgusting-	противний
 dish-	блюдо
 display-	показ
-distance-	расстояние
-distant-	дальний
-disturb-	беспокоить
-disturbing-	беспокоящий
-divide-	отделять (ся)
-division-	деление
-do-	делать
-doctor-	врач
-door-	дверь
-doubt-	сомнение
-doubt-	сомневаться
+distance-	відстань
+distant-	дальній
+disturb-	турбувати
+disturbing-	турбує
+divide-	відокремлювати (ся)
+division-	поділ
+do-	робити
+doctor-	лікар
+door-	двері
+doubt-	сумнів
+doubt-	сумніватися
 down-	вниз
-downstairs-	расположенный в нижнем этаже
-draw-	рисовать
-drawing-	рисунок
+downstairs-	розташований в нижньому поверсі
+draw-	малювати
+drawing-	малюнок
 dream-	сон
-dream-	сниться
-dress-	платье
-dress-	одевать (ся)
-drink-	напиток
-drink-	пить
-drive-	езда
+dream-	снитися
+dress-	плаття
+dress-	одягати (ся)
+drink-	напій
+drink-	пити
+drive-	їзда
 drive-	везти
-drop-	капля
-drop-	ронять
-dry-	сухой
-dry-	сушить (ся)
-dull-	скучный
-during-	в течение
-duty-	обязанность
-each-	каждый
-eager-	страстно желающий
-ear-	ухо
-early-	ранний
-earn-	зарабатывать
+drop-	крапля
+drop-	упускати
+dry-	сухий
+dry-	сушити (ся)
+dull-	нудний
+during-	протягом
+duty-	обов'язок
+each-	кожен
+eager-	пристрасно бажаючий
+ear-	вухо
+early-	ранній
+earn-	заробляти
 earth-	Земля
 easy-	легкий
-eat-	есть
+eat-	є
 edge-	кромка
-education-	образование
+education-	освіту
 effect-	результат
-effort-	усилие
-either-	любой (из двух)
-either-	один из двух
-else-	еще
-embarrassed-	смущенный
-embarrassing-	стеснительный
-emergency-	непредвиденный случай
-emotion-	чувство
-emphasis-	важность
-emphasize-	подчеркивать
-empty-	пустой
-encourage-	поощрять
-end-	конец
-end-	кончать
-enemy-	враг
-energy-	энергия
-enjoy-	получать удовольствие
-enjoyable-	приятный
-enough-	достаточно
-enter-	входить
-entertainment-	развлечение
-enthusiastic-	восторженный
-entrance-	вход
-entry-	вход
-environment-	окружение
-equal-	равный
-equal-	равняться
-equipment-	оборудование
-error-	заблуждение
-escape-	убегать
-especially-	особенно
-estimate-	оценка
-estimate-	оценивать
-even-	даже
-even-	ровный
-evening-	вечер
-event-	событие
-ever-	всегда
-every-	каждый
-everybody-	каждый
-everyone-	каждый
-everything-	всё
-everywhere-	везде
-evidence-	доказательство
-exact-	точный
+effort-	зусилля
+either-	будь-(з двох)
+either-	один з двох
+else-	ще
+embarrassed-	збентежений
+embarrassing-	сором'язливий
+emergency-	непередбачений випадок
+emotion-	почуття
+emphasis-	важливість
+emphasize-	підкреслювати
+empty-	порожній
+encourage-	заохочувати
+end-	кінець
+end-	кінчати
+enemy-	ворог
+energy-	енергія
+enjoy-	отримувати задоволення
+enjoyable-	приємний
+enough-	досить
+enter-	входити
+entertainment-	розвага
+enthusiastic-	захоплений
+entrance-	вхід
+entry-	вхід
+environment-	оточення
+equal-	рівний
+equal-	дорівнювати
+equipment-	обладнання
+error-	оману
+escape-	тікати
+especially-	особливо
+estimate-	оцінка
+estimate-	оцінювати
+even-	навіть
+even-	рівний
+evening-	вечір
+event-	подія
+ever-	завжди
+every-	кожен
+everybody-	кожен
+everyone-	кожен
+everything-	все
+everywhere-	всюди
+evidence-	доказ
+exact-	точний
 exactly-	точно
-exaggerate-	преувеличивать
-exam-	экзамен
-example-	пример
-excellent-	отличный
-except-	исключая
-exchange-	обмен
-exchange-	обменивать
-excited-	взволнованный
-exciting-	возбуждающий
-excuse-	извинение
-excuse-	извиняться
-exercise-	упражнение
-exhibition-	выставка
-exist-	существовать
-exit-	выход
-expect-	ожидать
-expensive-	дорогой
-experience-	(жизненный) опыт
-experiment-	опыт
-explain-	объяснять
-explanation-	пояснение
-exploration-	исследование
-expression-	выражение
-extra-	добавочный
-extraordinary-	необычный
-extremely-	чрезвычайно
-eye-	глаз
-face-	лицо
-face-	быть обращенным к
-fact-	обстоятельство
+exaggerate-	перебільшувати
+exam-	Кзам
+example-	приклад
+excellent-	відмінний
+except-	виключаючи
+exchange-	обмін
+exchange-	обмінювати
+excited-	схвильований
+exciting-	збудливий
+excuse-	вибачення
+excuse-	вибачатися
+exercise-	вправу
+exhibition-	виставка
+exist-	існувати
+exit-	вихід
+expect-	очікувати
+expensive-	дорогою
+experience-	(життєвий) досвід
+experiment-	досвід
+explain-	пояснювати
+explanation-	пояснення
+exploration-	дослідження
+expression-	вираз
+extra-	додатковий
+extraordinary-	незвичайний
+extremely-	надзвичайно
+eye-	очей
+face-	особа
+face-	бути зверненим до
+fact-	обставину
 factory-	завод
-fail-	потерпеть неудачу
-failure-	неспособность
-fair-	честный
-fairly-	должным образом
-fall-	падение
-fall-	падать
-false-	неверный
-familiar-	хорошо знакомый
-family-	семья
-famous-	знаменитый
+fail-	потерпіти невдачу
+failure-	нездатність
+fair-	чесний
+fairly-	належним чином
+fall-	падіння
+fall-	падати
+FALSE-	невірний
+familiar-	добре знайомий
+family-	сім'я
+famous-	знаменитий
 far-	далеко
-far-	дальний
+far-	дальній
 fashion-	мода
-fast-	быстрый
-fast-	быстро
-fasten-	прикреплять
-fat-	толстый
-father-	отец
-fault-	недостаток
-favour-	одолжение
-favourite-	любимый
+fast-	швидкий
+fast-	швидко
+fasten-	прикріплювати
+fat-	товстий
+father-	батько
+fault-	недолік
+favour-	послугу
+favourite-	улюблений
 fear-	боязнь
-fear-	бояться
-feature-	особенность
-feed-	кормить
-feel-	чувствовать
-feeling-	ощущение
+fear-	боятися
+feature-	особливість
+feed-	до мить
+feel-	відчувати
+feeling-	відчуття
 female-	самка
-female-	женского пола
-fence-	забор
+female-	жіночої статі
+fence-	паркан
 fetch-	принести
 few-	мало
 field-	поле
-fierce-	свирепый
-fight-	драться
+fierce-	лютий
+fight-	битися
 figure-	цифра
 file-	папка
-fill-	667. наполнять (ся)
-film-	фильм
-final-	завершающий
-finally-	наконец
-find-	находить
-fine-	превосходный
-finger-	палец (на руке)
-finish-	заканчивать
-fire-	огонь
-fire-	стрелять
-firm-	твердый
-first-	первый
-fit-	подходить
-fit-	подходящий
-fix-	ремонтировать
+fill-	667. наповнювати (ся)
+film-	фільм
+final-	завершальний
+finally-	нарешті
+find-	знаходити
+fine-	чудовий
+finger-	палець (на руці)
+finish-	закінчувати
+fire-	вогонь
+fire-	стріляти
+firm-	твердий
+first-	перший
+fit-	підходити
+fit-	відповідний
+fix-	ремонтувати
 flat-	плоский
-flat-	ровно
-flavour-	вкус
-flight-	полет
-float-	плавать
-flood-	заливать
-floor-	пол
-flow-	течение
-flow-	течь
-fly-	летать
-fold-	загибать
-follow-	следовать
-fond-	нежный
-food-	пища
+flat-	рівно
+flavour-	смак
+flight-	політ
+float-	плавати
+flood-	заливати
+floor-	підлогу
+flow-	протягом
+flow-	текти
+fly-	літати
+fold-	загинати
+follow-	слідувати
+fond-	ніжний
+food-	їжа
 foot-	ступня
 for-	для
 force-	сила
-force-	заставлять
-foreign-	иностранный; заграничный
-forever-	навсегда
-forget-	забывать
-forgive-	прощать
+force-	змушувати
+foreign-	іноземний; закордонний
+forever-	назавжди
+forget-	забувати
+forgive-	прощати
 fork-	вилка
 form-	форма
-form-	образовывать
-formal-	официальный
-fortunate-	счастливый
-fortunately-	к счастью
+form-	утворювати
+formal-	офіційний
+fortunate-	щасливий
+fortunately-	на щастя
 forward-	вперед
 frame-	рама
-free-	свободный
-free-	освобождать
-free-	бесплатно
+free-	вільний
+free-	звільняти
+free-	безкоштовно
 freedom-	свобода
-freeze-	замораживать
-frequent-	частый
-fresh-	свежий
-friend-	друг
-friendly-	дружественный
-frighten-	пугать
-frightened-	испуганный
-from-	от
-front-	передняя сторона чего-л
-full-	полный
-fun-	шутка
-funny-	забавный
-furniture-	мебель
-further-	дальше
-future-	будущее
-future-	будущий
-game-	игра
-gap-	щель
+freeze-	заморожувати
+frequent-	частий
+fresh-	свіжий
+friend-	один
+friendly-	дружній
+frighten-	лякати
+frightened-	переляканий
+from-	від
+front-	передня сторона чогось л
+full-	повний
+fun-	жарт
+funny-	забавний
+furniture-	меблі
+further-	далі
+future-	майбутнє
+future-	майбутній
+game-	гра
+gap-	щілину
 gas-	газ
 gate-	ворота
-gather-	собирать (ся)
-general-	главный
-generally-	обычно
-generous-	щедрый
-gentle-	ласковый
-genuine-	истинный
-get-	получить
-get away-	уходить
-get back-	вернуть (ся)
-get off-	сойти
-get on-	садиться (в машину)
-get out-	выходить
-get up-	вставать
-gift-	подарок
-give-	давать
-give away-	отдавать
-give back-	возвращать
-give out-	раздавать
-give up-	оставить
-glad-	довольный
-glass-	стекло
-go-	идти
-go away-	уходить
-go back (to)-	возвращаться
-go down-	опускаться
-go off-	выстреливать (об оружии)
-go on-	продолжать
-go out-	выйти
-go up-	подниматься
+gather-	збирати (ся)
+general-	головний
+generally-	зазвичай
+generous-	щедрий
+gentle-	ласкавий
+genuine-	істинний
+get-	отримати
+get away-	йти
+get back-	повернути (ся)
+get off-	зійти
+get on-	сідати (в машину)
+get out-	виходити
+get up-	вставати
+gift-	подарунок
+give-	давати
+give away-	віддавати
+give back-	повертати
+give out-	роздавати
+give up-	залишити
+glad-	задоволений
+glass-	скло
+go-	йти
+go away-	йти
+go back (to)-	повертатися
+go down-	опускатися
+go off-	вистрілювати (про зброю)
+go on-	продовжувати
+go out-	вийти
+go up-	підніматися
 good-	хороший
-goodbye-	до свидания!
-government-	правительство
-grade-	степень
-gradually-	постепенно
-grand-	большой
-grateful-	благодарный
-great-	большой
-greeting-	приветствие
+goodbye-	до побачення!
+government-	уряд
+grade-	ступінь
+gradually-	поступово
+grand-	великий
+grateful-	вдячний
+great-	великий
+greeting-	вітання
 ground-	земля
-group-	группа
-grow-	расти
-guard-	охрана
-guess-	предположение
-guess-	догадаться
+group-	група
+grow-	рости
+guard-	охорона
+guess-	припущення
+guess-	здогадатися
 guide-	вести
-guilty-	виновный
-habit-	обычай
-hair-	волосы
+guilty-	винний
+habit-	звичай
+hair-	волосся
 half-	половина
 hand-	рука (кисть)
-handle-	управлять
-hang-	вешать
-happen-	случаться
-happy-	счастливый
-hard-	жесткий
+handle-	керувати
+hang-	вішати
+happen-	траплятися
+happy-	щасливий
+hard-	жорсткий
 hard-	активно
-hardly-	вряд ли
-harm-	вред; зло
-hate-	ненавидеть
-he-	он
-have-	иметь
+hardly-	навряд чи
+harm-	шкоду; зло
+hate-	ненавидіти
+he-	він
+have-	мати
 head-	голова
-health-	здоровье
-healthy-	здоровый
-hear-	слышать
-heart-	сердце
-heat-	жара
-heavy-	тяжелый
-height-	высота
-hello-	привет!
-help-	помогать
-her-	ее
-here-	здесь
-hers-	ее
+health-	здоров'я
+healthy-	здоровий
+hear-	чути
+heart-	серце
+heat-	спека
+heavy-	важкий
+height-	висота
+hello-	привіт!
+help-	допомагати
+her-	її
+here-	тут
+hers-	її
 herself-	сама
-hide-	прятать (ся)
-high-	высокий
-high-	высоко
-him-	ему
+hide-	ховати (ся)
+high-	високий
+high-	високо
+him-	йому
 himself-	сам
-his-	его
-history-	история
-hit-	хит
-hit-	ударять
+his-	його
+history-	історія
+hit-	хіт
+hit-	ударяти
 hold-	захвт
-hold-	дерать
-hold on-	подождать
-hold out-	протягивать
-hold up-	останавливать
-hole-	дыра
-holiday-	праздник
-hollow-	пустой
-home-	дом
-home-	дома
-honest-	честный
-hope-	надежда
-hope-	надеяться
-hospital-	больница
-hot-	горячий
+hold-	дера
+hold on-	почекати
+hold out-	протягувати
+hold up-	зупиняти
+hole-	діра
+holiday-	свято
+hollow-	порожній
+home-	будинок
+home-	будинку
+honest-	чесний
+hope-	надія
+hope-	сподіватися
+hospital-	лікарня
+hot-	гарячий
 hour-	час
-house-	дом
-how-	как
-however-	однако
-human-	людской
-hungry-	голодный
-hurry-	суета
-hurry-	торопить (ся)
-hurt-	ранить
-hurt-	раненый
+house-	будинок
+how-	як
+however-	однак
+human-	людський
+hungry-	голодний
+hurry-	суєта
+hurry-	квапити (ся)
+hurt-	поранити
+hurt-	поранений
 I-	я
-idea-	идея
-identify-	опознавать
-if-	если
-ignore-	игнорировать
-ill-	больной
-illness-	болезнь
+idea-	ідея
+identify-	впізнавати
+if-	якщо
+ignore-	ігнорувати
+ill-	хворий
+illness-	хвороба
 image-	образ
-imagination-	воображение; фантазия
-imagine-	воображать
-immediate-	немедленный
-immediately-	немедленно
-impatient-	нетерпеливый
-importance-	важность
-important-	важный
-impossible-	невозможный
-impressed-	пораженный
-impression-	впечатление
-impressive-	впечатляющий
-improve-	улучшать (ся)
-improvement-	улучшение
+imagination-	уяву; фантазія
+imagine-	уявляти
+immediate-	негайний
+immediately-	негайно
+impatient-	нетерплячий
+importance-	важливість
+important-	важливий
+impossible-	неможливий
+impressed-	вражений
+impression-	враження
+impressive-	вражаючий
+improve-	покращувати (ся)
+improvement-	поліпшення
 in-	в
-in-	внутри
-include-	заключать
-increase-	возрастание
-increase-	возрастать
-indeed-	в самом деле
-independent-	независимый
-influence-	влияние
-influence-	влиять
-inform-	сообщать
-information-	информация
-injury-	вред
-innocent-	невинный
-inquire-	осведомляться
-inside-	внутренний
-insist-	настаивать
-instant-	мгновенный
-instead-	вместо
-instruction-	инструкция
-instrument-	инструмент
-intelligent-	сообразительный
-intend-	планировать
-interest-	интерес
-interested-	заинтересованный
-interesting-	интересный
-interfere-	вмешиваться
-interrupt-	прерывать
-interruption-	перерыв
-interview-	беседа
-interview-	интервьюировать
-into-	в (о)
-introduce-	знакомить
-introduction-	введение
-invitation-	приглашение
-invite-	приглашать
-involve-	вовлекать
-issue-	вопрос (проблема)
-it-	это
-its-	его
-itself-	себя
-job-	работа
-join-	соединять
-joke-	шутка
-joke-	шутить
-journey-	путешествие
-judge-	судья
-judge-	судить
-juice-	сок
-jump-	прыгать
-just-	только что
-justice-	справедливость	
-keen-	острый
-keep-	держать
-keep away-	держать (ся) в отдалении
-keep from-	удерживать (ся)
-keep off-	не подпускать
-keep out-	не допускать
-keep up-	поддерживать
+in-	всередині
+include-	укладати
+increase-	зростання
+increase-	зростати
+indeed-	справді
+independent-	незалежний
+influence-	вплив
+influence-	впливати
+inform-	повідомляти
+information-	інформація
+injury-	шкоду
+innocent-	безневинний
+inquire-	довідуватися
+inside-	внутрішній
+insist-	наполягати
+instant-	миттєвий
+instead-	замість
+instruction-	інструкція
+instrument-	інструмент
+intelligent-	кмітливий
+intend-	планувати
+interest-	інтерес
+interested-	зацікавлений
+interesting-	цікавий
+interfere-	втручатися
+interrupt-	переривати
+interruption-	перерву
+interview-	бесіда
+interview-	брати інтерв'ю
+into-	в ( о)
+introduce-	знайомити
+introduction-	введення
+invitation-	запрошення
+invite-	запрошувати
+involve-	залучати
+issue-	питання (проблема)
+it-	е про
+its-	його
+Itself-	себе
+job-	робота
+join-	з'єднувати
+joke-	жарт
+joke-	жартувати
+journey-	подорож
+judge-	суддя
+judge-	судити
+juice-	сік
+jump-	стрибати
+just-	тільки що
+justice-	справедливість
+keen-	гострий
+keep-	тримати
+keep away-	тримати (ся) на віддалі
+keep from-	утримувати (ся)
+keep off-	не підпускати
+keep out-	не допускати
+keep up-	підтримувати
 key-	ключ
-kick-	ударять ногой
-kill-	убивать
+kick-	ударяти ногою
+kill-	вбивати
 kind-	сорт
-kind-	добрый
-knock-	ударять
-know-	знать
-knowledge-	знание
-label-	ярлык
+kind-	добрий
+knock-	ударяти
+know-	знати
+knowledge-	знання
+label-	ярлик
 land-	земля
-land-	приземляться
-language-	язык
-large-	большой
-last-	последний
-last-	длиться
-late-	поздний
-later-	более поздний
-later-	позже
-laugh-	смех
-laugh-	смеяться
+land-	приземлятися
+language-	мову
+large-	великий
+last-	останній
+last-	тривати
+late-	пізній
+later-	більш пізній
+later-	пізніше
+laugh-	сміх
+laugh-	сміятися
 law-	закон
-lay-	класть
-lead-	преимущество
+lay-	класти
+lead-	перевага
 lead-	вести
-lean-	наклонять (ся)
-learn-	учиться
-least-	наименьший
-leave-	покидать
-left-	левый
-left-	налево
-left-	левая сторона
-leg-	нога (от бедра до ступни)
-legal-	легальный
-lend-	одалживать
-length-	длина
-less-	меньше
+lean-	нахиляти (ся)
+learn-	вчитися
+least-	найменший
+leave-	залишати
+left-	лівий
+left-	наліво
+left-	ліва сторона
+leg-	нога (від стегна до ступні)
+legal-	легальний
+lend-	позичати
+length-	довжина
+less-	менше
 lesson-	урок
-let-	позволять
-letter-	письмо
-level-	уровень
+let-	дозволяти
+letter-	письм
+level-	рівень
 level-	плоский
-lie-	лежать
-life-	жизнь
-lift-	поднимать (ся)
-light-	свет
-light-	светлый
-light-	загораться
-like-	любить
-like-	подобный
-likely-	вероятный
-limit-	граница
-limit-	ограничивать
-line-	линия
+lie-	лежати
+life-	життя
+lift-	піднімати (ся)
+light-	світло
+light-	світлий
+light-	загорятися
+like-	любити
+like-	подібний
+likely-	ймовірний
+limit-	межа
+limit-	обмежувати
+line-	лінія
 list-	список
-listen-	слушать
-listen for-	прислушиваться
+listen-	слухати
+listen for-	прислухатися
 little-	маленький
 little-	мало
-live-	жить
-live-	живой
-load-	груз
-load-	грузить
-loan-	заем
+live-	жити
+live-	живий
+load-	вантаж
+load-	вантажити
+loan-	позику
 lock-	замок
-lock-	запирать ключом
-lonely-	одинокий
-long-	длинный
-long-	долго
-look-	смотреть
-look after-	присматривать
-look around-	осматривать
-look back (on)-	оглядываться
-look up-	искать (что-л. в справочнике)
-loose-	свободный
-lose-	терять
-loss-	потеря
-lost-	разрушенный
-lot-	много
-loud-	громкий
-love-	любовь
-love-	любить
-low-	низкий
-lower-	нижний
-luck-	везение
-lucky-	счастливый
-lunch-	обед
+lock-	замикати ключем
+lonely-	самотній
+long-	довгий
+long-	довго
+look-	дивитися
+look after-	доглядати
+look around-	оглядати
+look back (on)-	озиратися
+look up-	шукати (що-л. в довіднику)
+loose-	вільний
+lose-	втрачати
+loss-	втрата
+lost-	зруйнований
+lot-	багато
+loud-	гучний
+love-	любов
+love-	любити
+low-	низький
+lower-	нижній
+luck-	везіння
+lucky-	щасливий
+lunch-	обід
 machine-	машина
-mad-	сумасшедший
-mail-	почта
-main-	главный
-mainly-	главным образом
-maintain-	поддерживать
-major-	более важный
-majority-	большинство
-make-	делать
-make into-	переделывать
-make up-	выдумывать
-male-	самец
-male-	мужской
-man-	человек
-manage-	руководить
+mad-	божевільний
+mail-	пошта
+main-	головний
+mainly-	головним чином
+maintain-	підтримувати
+major-	більш важливий
+majority-	більшість
+make-	робити
+make into-	переробляти
+make up-	вигадувати
+male-	самець
+male-	чоловічий
+man-	людина
+manage-	керувати
 manner-	манера
-many-	много
-march-	маршировать
+many-	багато
+march-	марширувати
 mark-	знак
-mark-	отмечать
-market-	рынок
-married-	женатый
-marry-	жениться или выходить замуж
-mass-	масса
-match-	спичка
-match-	подходить
-material-	материал
-matter-	дело
-matter-	иметь значение
-maximum-	максимальный
-may-	мочь (разрешение)
-maybe-	может быть
-me-	меня
-meal-	прием пищи
-mean-	неприятный
-mean-	иметь в виду
-meaning-	значение
-means-	средство
-meanwhile-	тем временем
-measure-	мера
-measure-	измерять
-medium-	средний
-meet-	встречать (ся)
-meeting-	встреча
-memory-	память
-mend-	чинить
-mention-	упоминать
-mess-	беспорядок
-mess-	производить беспорядок
-message-	сообщение
+mark-	відзначати
+market-	ринок
+married-	одружений
+marry-	одружуватися або виходити заміж
+mass-	маса
+match-	сірник
+match-	підходити
+material-	матеріал
+matter-	справа
+matter-	мати значення
+maximum-	максимальний
+may-	могти (дозвіл)
+maybe-	може бути
+me-	мене
+meal-	прийом їжі
+mean-	неприємний
+mean-	мати на увазі
+meaning-	значення
+means-	засіб
+meanwhile-	тим часом
+measure-	міра
+measure-	вимірювати
+medium-	середній
+meet-	зустрічати (ся)
+meeting-	зустріч
+memory-	пам'ять
+mend-	лагодити
+mention-	згадувати
+mess-	безлад
+mess-	виробляти безлад
+message-	повідомлення
 method-	метод
 middle-	середина
-middle-	средний
-might-	мочь (прош. вр. от may)
-mind-	возражать
-mind-	ум
-mine-	мой
+middle-	середній
+might-	могти (бавовняні. вр. від may)
+mind-	заперечувати
+mind-	розум
+mine-	мій
 mine-	шахта
-minimum-	минимум
-minimum-	минимальный
-minor-	незначительный
-minority-	меньшинство
-minute-	минута
-miss-	скучать
+minimum-	мінімум
+minimum-	мінімальний
+minor-	незначний
+minority-	меншість
+minute-	хвилина
+miss-	нудьгувати
 miss-	промах
-mistake-	ошибка
-mistake-	ошибаться
-mix-	смешивать (ся)
-mixture-	смешивание
+mistake-	помилка
+mistake-	помилятися
+mix-	змішувати (ся)
+mixture-	змішування
 model-	модель
-modern-	современный
+modern-	сучасний
 moment-	момент
-money-	деньги
-month-	месяц
-mood-	настроение
-moon-	луна
-moral-	моральный
-more-	больше
-morning-	утро
-most-	больше всего
+money-	гроші
+month-	місяць
+mood-	настрій
+moon-	місяць
+moral-	моральний
+more-	більше
+morning-	ранок
+most-	найбільше
 mother-	мама
-motion-	движение
+motion-	рух
 mouth-	рот
-move-	движение
-move-	двигать (ся)
-movement-	движение
-much-	много
-murder-	убийство
-murder-	убивать
-muscle-	мускул
-music-	музыка
-must-	должен
-my-	мой
-myself-	себя
-mysterious-	таинственный
-mystery-	тайна
-name-	имя
-name-	называть
-narrow-	узкий
-national-	национальный
-natural-	естественный
-naturally-	естественно
+move-	рух
+move-	рухати (ся)
+movement-	рух
+much-	багато
+murder-	вбивство
+murder-	вбивати
+muscle-	м'язів
+music-	музика
+must-	повинен
+my-	мій
+myself-	себе
+mysterious-	таємничий
+mystery-	таємниця
+name-	ім'я
+name-	називати
+narrow-	вузький
+national-	національний
+natural-	природний
+naturally-	природно
 nature-	природа
-near-	близко
-near-	ближний
-nearly-	почти
-neat-	аккуратный
-necessary-	необходимый
-neck-	шея
-need-	нуждаться
-needle-	игла
-negative-	отрицательный
-neither-	ни тот ни другой
-neither-	также не
+near-	близько
+near-	ближній
+nearly-	майже
+neat-	акуратний
+necessary-	необхідний
+neck-	шия
+need-	потребувати
+needle-	голка
+negative-	негативний
+neither-	ні той ні інший
+neither-	теж не
 nerve-	нерв
-nervous-	нервный
-never-	никогда
-new-	новый
-news-	известие
-next-	следующий
+nervous-	нервовий
+never-	ніколи
+new-	новий
+news-	звістка
+next-	наступний
 nice-	хороший
-night-	ночь
+night-	ніч
 no-	не
-no-	никакой
+no-	ніякої
 noise-	шум
-noisy-	шумный
-none-	никакой
+noisy-	галасливий
+none-	ніякої
 nonsense-	абсурд
-no one-	никто
-nor-	и... не
-normal-	нормальный
-nose-	нос
+no one-	ніхто
+nor-	і ... не
+normal-	нормальний
+nose-	ніс
 not-	не
 note-	записка
-nothing-	ничего
-notice-	объявление
-now-	сейчас
-now-	теперь
-nowhere-	нигде
+nothing-	нічого
+notice-	оголошення
+now-	зараз
+now-	тепер
+nowhere-	ніде
 number-	число
-nurse-	медицинская сестра
+nurse-	медична сестра
 object-	предмет
-object-	возражать
-objection-	возражение
-obtain-	получать
-obvious-	очевидный
-occasion-	случай
-occasional-	случайный
-occur-	происходить
+object-	заперечувати
+objection-	заперечення
+obtain-	отримувати
+obvious-	очевидний
+occasion-	випадок
+occasional-	випадковий
+occur-	відбуватися
 ocean-	океан
-odd-	странный
-of-	от
+odd-	дивний
+of-	від
 off-	с
-off-	несвежий
-offence-	нарушение
-offend-	обижать
-offer-	предложение
-offer-	предлагать
-office-	офис
-official-	официальный
-official-	должностное лицо
+off-	несвіжий
+offence-	порушення
+offend-	ображати
+offer-	пропозицію
+offer-	пропонувати
+office-	офіс
+official-	офіційний
+official-	посадова особа
 often-	часто
-oil-	нефть
-ok-	хорошо
-old-	старый
+oil-	нафту
+OK or okay-	добре
+old-	старий
 on-	на
-on-	включенный
-once-	один раз
-once-	однажды
+on-	включений
+once-	один ра з
+once-	одного разу
 one-	один
-only-	только
-only-	единственный
+only-	тільки
+only-	єдиний
 onto-	на
-open-	открытый
-open-	открывать (ся)
-operate-	действовать
-operation-	операция
-opinion-	мнение
+open-	відкритий
+open-	відкривати (ся)
+operate-	діяти
+operation-	операція
+opinion-	думку
 opponent-	противник
-opportunity-	благоприятная возможность
-opposite-	противоположный
-opposite-	напротив
-or-	или
+opportunity-	сприятлива можливість
+opposite-	протилежний
+opposite-	навпаки
+or-	або
 order-	порядок
-order-	заказывать
-ordinary-	обычный
-organization-	организация
-organize-	организовывать
-original-	начальный
-other-	другой
-otherwise-	иначе
-ought-	выражает долженствование
+order-	замовляти
+ordinary-	звичайний
+organization-	організація
+organize-	організовувати
+original-	початковий
+other-	інший
+otherwise-	інакше
+ought-	висловлює повинність
 our-	наш
 ours-	наш
-ourselves-	сами
-out-	вне
-outside-	снаружи
+ourselves-	самі
+out-	поза
+outside-	зовні
 over-	над
-over-	свыше
-owe-	быть должным
-own-	свой
-pain-	боль
+over-	понад
+owe-	бути належним
+own-	свій
+pain-	біль
 pair-	пара
-paper-	бумага
-part-	доля
-part-	расставаться
+paper-	папір
+part-	частка
+part-	розлучатися
 partner-	партнер
-party-	вечеринка
-pass-	проходить
-passage-	проход
-passenger-	пассажир
-past-	прошлое
-past-	прошлый
-past-	мимо
-path-	тропинка
-patience-	терпение
-patient-	терпеливый
+party-	вечірка
+pass-	проходити
+passage-	прохід
+passenger-	пасажир
+past-	минуле
+past-	минулий
+past-	повз
+path-	стежка
+patience-	терпіння
+patient-	терплячий
 pattern-	модель
 pause-	пауза
-pause-	останавливаться
+pause-	зупинятися
 pay-	плата
-pay-	платить
-payment-	платеж
-peace-	мир
-peaceful-	мирный
+pay-	платити
+payment-	платіж
+peace-	світ
+peaceful-	мирний
 pen-	ручка
-pencil-	карандаш
+pencil-	олівець
 people-	люди
-perfect-	совершенный
-perform-	выполнять
-performance-	выступление
-perhaps-	может быть
-period-	период
-permission-	позволение
-person-	человек
-personal-	личный
-persuade-	убеждать
+perfect-	досконалий
+perform-	ви полнять
+performance-	виступ
+perhaps-	може бути
+period-	період
+permission-	дозвіл
+person-	людина
+personal-	особистий
+persuade-	переконувати
 petrol-	бензин
 phone-	телефон
-phone-	звонить по телефону
-physical-	физический
-pick-	выбирать
+phone-	дзвонити по телефону
+physical-	фізичний
+pick-	вибирати
 picture-	картина
-piece-	кусок
-pile-	куча
+piece-	шматок
+pile-	купа
 pin-	кнопка
-pinch-	щипать
+pinch-	щипати
 pipe-	труба
-pity-	жалость
-place-	пространство
-plain-	чистый
+pity-	жалість
+place-	простір
+plain-	чистий
 plan-	план
-plan-	планировать
-plant-	растение
+plan-	планувати
+plant-	рослина
 plastic-	пластик
-plate-	тарелка
+plate-	тарілка
 platform-	платформа
-play-	пьеса
-play-	играть
-pleasant-	приятный
-please-	пожалуйста!
-please-	радовать
-pleased-	довольный
-pleasure-	удовольствие
-plenty-	множество
-plenty-	вполне
-pocket-	каман
+play-	п'єса
+play-	грати
+pleasant-	приємний
+please-	ласка!
+please-	радувати
+pleased-	задоволений
+pleasure-	задоволення
+plenty-	безліч
+plenty-	цілком
+pocket-	Каман
 point-	точка
-point-	указывать
-poison-	яд
-police-	полиция
-polite-	вежливый
-politics-	политика
-pollution-	загрязнение
-pool-	бассейн
-poor-	бедный
-popular-	популярный
+point-	вказувати
+poison-	отрута
+police-	поліція
+polite-	важливий
+politics-	політика
+pollution-	забруднення
+pool-	басейн
+poor-	бідний
+popular-	популярний
 port-	порт
-position-	положение
-positive-	уверенный
-possession-	владение
-possibility-	вероятность
-possible-	вероятный
-possibly-	возможно
-post-	почта
-post-	посылать по почте
-pot-	горшок
-pour-	лить
+position-	положення
+positive-	впевнений
+possession-	володіння
+possibility-	ймовірність
+possible-	ймовірний
+possibly-	можливо
+post-	пошта
+post-	надсилати поштою
+pot-	горщик
+pour-	лити
 power-	сила
-powerful-	сильный
-practical-	практический
+powerful-	сильний
+practical-	практичний
 practice-	практика
-practise-	практиковать (ся)
-praise-	хвалить
-precise-	точный
-prefer-	предпочитать
-preparation-	подготовка
-prepare-	готовить
-present-	подарок
-present-	преподносить
-present-	присутствующий
-press-	пресса
-press-	нажимать
-pressure-	давление
-pretend-	притворяться
-pretty-	хорошенький
-pretty-	достаточно
-prevent-	предотвращать
-previous-	предыдущий
-price-	цена
-pride-	гордость
+practise-	практикувати (ся)
+praise-	хвалити
+precise-	точний
+prefer-	перевагу
+preparation-	підготовка
+prepare-	готувати
+present-	подарунок
+present-	підносити
+present-	присутній
+press-	преса
+press-	натискати
+pressure-	тиск
+pretend-	прикидатися
+pretty-	гарненький
+pretty-	досить
+prevent-	запобігати
+previous-	попередній
+price-	ціна
+pride-	гордість
 principle-	принцип
-print-	печатать
-priority-	преимущество
-private-	частный
+print-	друкувати
+priority-	перевага
+private-	приватний
 prize-	приз
-probably-	вероятно
-problem-	проблема
-process-	процесс
-produce-	производить
-production-	изготовление
-professional-	профессиональный
-profit-	прибыль
-programme-	программа
-progress-	прогресс
+probably-	ймовірно
+problem-	ін блема
+process-	процес
+produce-	виробляти
+production-	виготовлення
+professional-	професійний
+profit-	прибуток
+programme-	програма
+progress-	прогрес
 project-	проект
-promise-	обещание
-promise-	обещать
-pronounce-	произносить
-pronunciation-	произношение
-proof-	подтверждение
-proper-	присущий
-properly-	должным образом
-protect-	защищать
-protection-	защита
+promise-	обіцянку
+promise-	обіцяти
+pronounce-	вимовляти
+pronunciation-	вимова
+proof-	підтвердження
+proper-	властивий
+properly-	належним чином
+protect-	захищати
+protection-	захист
 protest-	протест
-protest-	протестовать
-proud-	гордый
-prove-	доказывать
-provide-	снабжать
-public-	общественный
-public-	публика
-pull-	тянуть
-pump-	качать
-punish-	наказывать
+protest-	протестувати
+proud-	гордий
+prove-	доводити
+provide-	постачати
+public-	громадський
+public-	публіка
+pull-	тягнути
+pump-	качати
+punish-	карати
 punishment-	кара
-pupil-	ученик
-pure-	чистый
-purpose-	цель
-push-	толкать (ся)
-put-	класть
-quality-	качество
-quantity-	количество
-quarter-	четверть
-question-	вопрос
-question-	расспрашивать
-quick-	быстрый
-quickly-	быстро
+pupil-	учень
+pure-	чистий
+purpose-	мета
+push-	штовхати (ся)
+put-	класти
+quality-	якість
+quantity-	кількість
+quarter-	чверть
+question-	питання
+question-	розпитувати
+quick-	швидкий
+quickly-	швидко
 quiet-	тихий
-quite-	совершенно
+quite-	абсолютно
 race-	гонка
-radio-	радио
-rain-	дождь
-rain-	идти
-raise-	поднимать
+radio-	радіо
+rain-	дощ
+rain-	йти
+raise-	піднімати
 range-	ряд
-rank-	звание
-rare-	редкий
+rank-	звання
+rare-	рідкісний
 rarely-	нечасто
-rate-	показатель
-rather-	достаточно
-raw-	сырой
-reach-	добираться до
-react-	реагировать
-reaction-	реакция
-read-	читать
-ready-	готовый
-real-	реальный
-realize-	понимать
-really-	действительно
+rate-	показник
+rather-	досить
+raw-	сирий
+reach-	добиратися до
+react-	реагувати
+reaction-	реакція
+read-	чит ать
+ready-	готовий
+real-	реальний
+realize-	розуміти
+really-	дійсно
 reason-	причина
-reasonable-	разумный
-receive-	получать
-recent-	недавний
+reasonable-	розумний
+receive-	отримувати
+recent-	недавній
 recently-	недавно
-recognize-	признавать
-recommend-	рекомендовать
-record-	запись
-record-	записывать
-recover-	выздоравливать
-recovery-	выздоровление
-reduce-	понижать
-reduction-	сокращение
-refer-	упоминать
-refuse-	отказать (ся)
-regard-	внимание
+recognize-	визнавати
+recommend-	рекомендувати
+record-	запис
+record-	записувати
+recover-	одужувати
+recovery-	одужання
+reduce-	знижувати
+reduction-	скорочення
+refer-	згадувати
+refuse-	відмовити (ся)
+regard-	увагу
 region-	область
 regional-	бластной
-regret-	сожалеть
-regular-	регулярный
+regret-	шкодувати
+regular-	регулярний
 regularly-	регулярно
-reject-	отклонять
-related-	связанный
-relation-	связь
-relationship-	родство
-relative-	родственник; родственница
-relax-	расслабляться
-release-	освобождать (ся)
-reliable-	надежный
-relief-	облегчение
-rely-	полагаться
-remain-	оставаться
-remark-	замечание
-remember-	помнить
-remove-	перемещать
-rent-	брать в аренду
-repair-	ремонтировать
-repeat-	повторять
-replace-	заменять
-reply-	отвечать
-reply-	ответ
-report-	доклад
-report-	сообщать
-represent-	представлять
-rescue-	спасать
-reserve-	резервировать
-respect-	уважение
-respect-	уважать
-responsibility-	ответственность
-responsible-	ответственный
-rest-	остаток
-rest-	отдыхать
+reject-	відхиляти
+related-	пов'язаний
+relation-	зв'язок
+relationship-	спорідненість
+relative-	родич; родичка
+relax-	розслаблятися
+release-	звільняти (ся)
+reliable-	надійний
+relief-	полегшення
+rely-	покладатися
+remain-	залишатися
+remark-	зауваження
+remember-	пам'ятати
+remove-	переміщати
+rent-	брати в оренду
+repair-	ремонтувати
+repeat-	повторювати
+replace-	замінювати
+reply-	відповідати
+reply-	відповідь
+report-	доповідь
+report-	повідомляти
+represent-	представляти
+rescue-	рятувати
+reserve-	резервувати
+respect-	повагу
+respect-	поважати
+responsibility-	відповідальність
+responsible-	відповідальний
+rest-	залишок
+rest-	відпочивати
 result-	результат
-return-	возвращаться
-rich-	богатый
-rid-	освобождать
-ride-	ехать
+return-	повертатися
+rich-	багатий
+rid-	звільняти
+ride-	їхати
 right-	право
-right-	правый
+right-	правий
 right-	правильно
-ring-	кольцо
-ring-	звонить
-rise-	подниматься
-risk-	риск
-risk-	рисковать
+ring-	кільце
+ring-	дзвонити
+rise-	підніматися
+risk-	ризик
+risk-	ризикувати
 road-	дорога
-rob-	грабить
-roll-	катить (ся)
-roof-	крыша
-room-	комната
-rough-	грубый
-round-	круглый
-round-	вокруг
+rob-	грабувати
+roll-	котити (ся )
+roof-	дах
+room-	кімната
+rough-	грубий
+round-	круглий
+round-	навколо
 row-	ряд
-rub-	тереть (ся)
-rubbish-	мусор
+rub-	терти (ся)
+rubbish-	сміття
 rule-	правило
-run-	бег
-run-	бежать
-run away-	убежать
-run into-	наталкиваться
-run out-	кончаться
-run over-	переехать
-rush-	спешка
-rush-	мчаться
-sad-	грустный
-safe-	безопасный
-safety-	безопасность
-sail-	плавать
-sale-	продажа
-same-	тот (же) самый
-satisfactory-	удовлетворительный
-satisfied-	удовлетворенный
-save-	спасать
-say-	сказать
-scale-	вес
-scare-	пугать
-scared-	испуганный
+run-	біг
+run-	бігти
+run away-	втекти
+run into-	натрапляти
+. run out-	ончаться
+run over-	переїхати
+rush-	поспіх
+rush-	мчати
+sad-	сумний
+safe-	безпечний
+safety-	безпеку
+sail-	плавати
+sale-	продаж
+same-	той (ж) самий
+satisfactory-	задовільний
+satisfied-	задоволений
+save-	рятувати
+say-	сказати
+scale-	вага
+scare-	лякати
+scared-	переляканий
 scene-	сцена
 schedule-	список
 scheme-	проект
 school-	школа
 science-	наука
-score-	счет
-score-	выигрывать
-scrap-	клочок
-scrape-	скоблить
-scream-	кричать
+score-	рахунок
+score-	вигравати
+scrap-	клаптик
+scrape-	шкребти
+scream-	кричати
 scream-	крик
 sea-	море
-search-	поиск
-search-	искать
+search-	пошук
+search-	шукати
 season-	сезон
-seat-	сиденье
-second-	второй
+seat-	сидіння
+second-	другий
 second-	секнда
 secret-	секрет
-secret-	секретный
-section-	секция
-see-	видеть
-seem-	казаться
-sell-	продавать
-send-	посылать
-sense-	чувство
-sensible-	благоразумный
-sensitive-	чувствительный
-sentence-	предложение
-separate-	отдельный
-separate-	разделять
-serious-	серьезный
-seriously-	серьезно
-serve-	подавать
+secret-	секретний
+section-	секція
+see-	бачити
+seem-	здаватися
+sell-	продавати
+send-	посилати
+sense-	почуття
+sensible-	розсудливий
+sensitive-	чутливий
+sentence-	пропозицію
+separate-	окремий
+separate-	розділяти
+serious-	серйозний
+seriously-	серйозно
+serve-	подавати
 service-	служба
-set-	набор
-set-	ставить
-settle-	улаживать
-several-	несколько
-shade-	тень
-shadow-	тень
-shake-	трясти (сь)
-shall-	следует
-shallow-	мелкий
-shame-	стыд
-shape-	форма
-share-	делить (ся)
-share-	доля
-sharp-	острый
-she-	она
-shelter-	приют
-shine-	сиять
+set-	набір
+set-	ставити
+settle-	залагоджувати
+several-	кілька
+shade-	тінь
+shadow-	тінь
+shake-	трясти (ся)
+shall-	слід
+shallow-	невеликий
+shame-	сором
+shape-	ф орма
+share-	ділити (ся)
+share-	частка
+sharp-	гострий
+she-	вона
+shelter-	притулок
+shine-	сяяти
 shock-	удар
-shock-	потрясать
-shoot-	стрелять
+shock-	потрясати
+shoot-	стріляти
 shop-	магазин
-shop-	делать покупки
-shopping-	посещение магазина
+shop-	робити покупки
+shopping-	відвідування магазину
 short-	короткий
-should-	выражает долженствование
-shoulder-	плечо
+should-	висловлює повинність
+shoulder-	плече
 shout-	крик
-shout-	кричать
-show-	показывать
+shout-	кричати
+show-	показувати
 show-	шоу
-shrink-	уменьшать (ся)
-shut-	закрывать (ся)
-shut-	закрытый
-sick-	больной
+shrink-	зменшувати (ся)
+shut-	закривати (ся)
+shut-	закритий
+sick-	хворий
 side-	сторона
-side-	боковой
+side-	бічної
 sight-	вид
 sign-	знак; символ
-sign-	подписывать (ся)
-silent-	молчаливый
-similar-	подобный
-simple-	простой
-since-	с тех пор
-sing-	петь
-single-	единственный
-sink-	тонуть
+sign-	підписувати (ся)
+silent-	мовчазний
+similar-	подібний
+simple-	простий
+since-	з тих пір
+sing-	співати
+single-	єдиний
+sink-	тонути
 sink-	раковина
 sister-	сестра
-sit-	сидеть
-situation-	положение
-size-	размер
-skill-	умение
-skin-	кожа
-skirt-	юбка
+sit-	сидіти
+situation-	положення
+size-	розмір
+skill-	вміння
+skin-	шкіра
+skirt-	спідниця
 sky-	небеса
-sleep-	спать
+sleep-	спати
 sleep-	сон
-slice-	ломтик
-slice-	нарезать ломтиками
-slide-	скользить
+slice-	скибочку
+slice-	нарізати скибочками
+slide-	ковзати
 slight-	легкий
-slightly-	незначительно
-slip-	поскользнуться
-slow-	медленный
-slowly-	медленно
+slightly-	незначно
+slip-	посковзнутися
+slow-	повільний
+slowly-	повільно
 small-	маленький
-smart-	нарядный
-smell-	пахнуть
+smart-	ошатний
+smell-	пахнути
 smell-	запах
-smile-	улыбаться
-smile-	улыбка
-smoke-	дым
+smile-	посміхатися
+smile-	посмішка
+smoke-	дим
 smooth-	гладкий
-snow-	снег
-snow-	идти (о снеге)
-so-	итак
+snow-	сніг
+snow-	йти (про сніг)
+so-	отже
 so-	так
-soak-	впитывать (ся)
-soft-	мягкий
-software-	компьютерные программы
+soak-	вбирати (ся)
+soft-	м'який
+software-	комп'ютерні програми
 soil-	грунт
-solve-	решать
-some-	какой-либо
-somebody-	кто-нибудь
-somehow-	так или иначе
-someone-	кто-нибудь
-something-	кое-что
-sometimes-	иногда
-somewhere-	где-то
-song-	песня
+solve-	вирішувати
+some-	будь-якої
+somebody-	хто-небудь
+somehow-	так чи інакше
+someone-	хтось
+something-	щось
+sometimes-	іноді
+somewhere-	десь
+song-	пісня
 soon-	скоро
-sore-	боль
-sorry-	огорченный
-sort-	вид
-sort-	сортировать
+sore-	біль
+sorry-	засмучений
+sort-	вигляд
+sort-	сортувати
 sound-	звук
-sound-	звучать
-space-	пространство
-spare-	запасной
-speak-	говорить
-special-	особый
-speech-	речь
-speed-	скорость
-spend-	тратить
-spill-	проливать (ся)
-spin-	крутить (ся)
-spite-	злость
-splash-	брызгать (ся)
-split-	раскалывать (ся)
-spoil-	портить (ся)
+sound-	звучати
+space-	простір
+spare-	з апасной
+speak-	говорити
+special-	особливий
+speech-	мова
+speed-	швидкість
+spend-	витрачати
+spill-	проливати (ся)
+spin-	крутити (ся)
+spite-	злість
+splash-	бризкати (ся)
+split-	розколювати (ся)
+spoil-	псувати (ся)
 sport-	спорт
-spot-	место
-spray-	брызгать
-spread-	распространять (ся)
+spot-	місце
+spray-	бризкати
+spread-	поширювати (ся)
 spring-	весна
-spring-	отскочить
+spring-	відскочити
 square-	квадрат
-square-	квадратный
-squash-	раздавливать
-squeeze-	выжимать (ся)
-stage-	ступень
+square-	квадратний
+squash-	роздавлювати
+squeeze-	вичавлювати (ся)
+stage-	щабель
 stamp-	марка
-stamp-	топать ногой
-stand-	стоять
+stamp-	топати ногою
+stand-	стояти
 standard-	стандарт
-star-	звезда
-stare-	вглядываться
-start-	начало
-start-	начинать
-state-	состояние
-statement-	заявление
-stay-	оставаться
-steady-	устойчивый
-steal-	воровать
+star-	зірка
+stare-	вдивлятися
+start-	початок
+start-	починати
+state-	стан
+statement-	заяву
+stay-	залишатися
+steady-	стійкий
+steal-	красти
 steam-	пар
-steep-	крутой
-steer-	направлять
-step-	шаг
-stick-	приклеивать (ся)
+steep-	крутий
+steer-	направляти
+step-	крок
+stick-	приклеювати (ся)
 sticky-	клейкий
-stiff-	жесткий
-still-	до сих пор
+stiff-	жорсткий
+still-	досі
 still-	тихий
-sting-	жалить
-stir-	размешивать
-stone-	камень
-stop-	остановка
-stop-	останавливать (ся)
+sting-	жалити
+stir-	розмішувати
+stone-	камінь
+stop-	зупинка
+stop-	зупиняти (ся)
 store-	магазин
-store-	запасать
+store-	запасати
 storm-	шторм
-story-	рассказ
-straight-	прямой
+story-	розповідь
+straight-	прямий
 straight-	прямо
-strange-	странный
-stranger-	незнакомец
-street-	улица
+strange-	дивний
+stranger-	н знайомець
+street-	вулиця
 strength-	сила
-stretch-	тянуть (ся)
+stretch-	тягнути (ся)
 strict-	строгий
-strike-	ударять (ся)
-strike-	забастовка
-string-	веревка
-strong-	сильный
-study-	изучать
-study-	изучение
-stupid-	глупый
+strike-	ударяти (ся)
+strike-	страйк
+string-	мотузка
+strong-	сильний
+study-	вивчати
+study-	вивчення
+stupid-	дурний
 style-	стиль
 subject-	предмет
-substance-	вещество
-succeed-	удаваться
-success-	успех
-successful-	удачный
-such-	такой
-sudden-	внезапный
-suddenly-	вдруг
-suffer-	страдать
-suggest-	предлагать
-suggestion-	предложение
+substance-	речовина
+succeed-	вдаватися
+success-	успіх
+successful-	вдалий
+such-	такий
+sudden-	раптовий
+suddenly-	раптом
+suffer-	страждати
+suggest-	пропонувати
+suggestion-	пропозиція
 suit-	костюм
-suit-	подходить
-summer-	лето
+suit-	підходити
+summer-	літо
 supply-	поставка
-support-	поддерживать
-suppose-	допускать
-sure-	уверенный
-sure-	конечно
-surface-	поверхность
+support-	підтримувати
+suppose-	допускати
+sure-	впевнений
+sure-	звичайно
+surface-	поверхню
 surprise-	сюрприз
-surprised-	удивленный
-surprising-	неожиданный
-survive-	пережить
-swallow-	глотать
-sweep-	мести
-sweet-	сладкий
-swim-	плавать
-swimming-	плавание
-swing-	качать (ся)
-switch-	выключатель
-switch-	переключать
+surprised-	здивований
+surprising-	несподіваний
+survive-	пережити
+swallow-	ковтати
+sweep-	помсти
+sweet-	солодкий
+swim-	плавати
+swimming-	плавання
+swing-	качати ( ся)
+switch-	вимикач
+switch-	перемикати
 system-	система
-table-	стол
-take-	брать
-take away-	убирать
-take back-	отдавать
-take off-	снимать одежду
-take out-	вынимать
-take over-	принимать дела от другого
-talk-	разговор
-talk-	разговаривать
-talk back-	спорить
-talk into-	уговорить
-talk out of-	отговорить
-tall-	высокий
-tap-	(по) стучать
+table-	стіл
+take-	брати
+take away-	прибирати
+take back-	віддавати
+take off-	знімати одяг
+take out-	виймати
+take over-	приймати справи від іншого
+talk-	розмова
+talk-	розмовляти
+talk back-	сперечатися
+talk into-	умовити
+talk out of-	ОТГ воріть
+tall-	високий
+tap-	(по) стукати
 tap-	кран
-tape-	(магнитная) лента
-target-	цель
-task-	задание
-taste-	вкус
-taste-	пробовать (на вкус)
-tax-	налог
-teach-	преподавать
+tape-	(магнітна) стрічка
+target-	мета
+task-	завдання
+taste-	смак
+taste-	пробувати (на смак)
+tax-	податок
+teach-	викладати
 team-	команда
-tear-	рвать (ся)
+tear-	рвати (ся)
 telephone-	телефон
-television-	телевизор
-tell-	говорить
+television-	телевізор
+tell-	говорити
 temper-	характер
 temperature-	температура
-tend-	иметь тенденцию
-tense-	возбужденный
-term-	срок
-terrible-	страшный
+tend-	мати тенденцію
+tense-	збуджений
+term-	термін
+terrible-	страшний
 test-	тест
-test-	испытывать
-than-	чем
-thank-	благодарить
-thanks-	спасибо
-thank you-	спасибо
-that-	тот
+test-	відчувати
+than-	ніж
+thank-	дякувати
+thanks-	дякую
+thank you-	дякую
+that-	той
 that-	так
 the-	_
-their-	их
-theirs-	их
-them-	им
-themselves-	себя
+their-	їх
+theirs-	їх
+them-	їм
+themselves-	себе
 then-	затем
 there-	там
 there-	есть
 they-	они
-thick-	толстый
+thick-	товстий
 thin-	тонкий
-thing-	вещь
-think-	думать
-think of-	подумать
-think over-	обдумывать
-think through-	продумывать
-thirsty-	испытывающий жажду
-this-	этот
-this-	данный
-thorough-	тщательный
-though-	хотя
-thought-	мысль
-threaten-	угрожать
+thing-	річ
+think-	думати
+think of-	подумати про
+think over-	обдумувати
+think through-	продумувати
+thirsty-	спрага
+this-	той
+this-	цей
+thorough-	ретельний
+though-	хоча
+thought-	думка
+threaten-	погрожувати
 through-	через
-through-	свободный
-throughout-	по всему
-throw-	бросать
-thumb-	большой палец (руки)
-ticket-	билет
-tidy-	аккуратный
-tidy-	убирать
-tie-	связывать
-tight-	тесный
-time-	время
-tip-	кончик
-tip-	наклонять (ся)
-tired-	усталый
-to-	приинфинитивная частица
-to-	к
-today-	сегодня
-together-	вместе
+through-	вільний
+throughout-	по всьому
+throw-	кидати
+thumb-	великий палець руки
+ticket-	квиток
+tidy-	акуратний
+tidy-	прибирати
+tie-	звязувати
+tight-	тісний
+time-	час
+tip-	кінчик
+tip-	нахилятись
+tired-	стомлений
+to-	до
+today-	сегодні
+together-	разом
 tomorrow-	завтра
 tone-	тон
-tongue-	язык
-tonight-	сегодня вечером
-too-	слишком
-tool-	(рабочий) инструмент
+tongue-	язик
+tonight-	ввечері
+too-	занадто
+tool-	(рабочий) інструмент
 tooth-	зуб
-top-	верхушка
-top-	верхний
-total-	абсолютный
-total-	целое
-touch-	прикосновение
-touch-	прикасаться
-tough-	жесткий
-tour-	путешествие
-towards-	по направлению к
-town-	город
-track-	тропинка
-trade-	торговля
-trade-	торговать
-tradition-	традиция
-traffic-	движение
-tragedy-	несчастье
-train-	поезд
-train-	тренировать (ся)
-translate-	переводить
-transparent-	прозрачный
-transport-	перевозка
+top-	верхівка
+top-	верхній
+total-	абсолютний
+total-	цiле
+touch-	дотик
+touch-	торкатися
+tough-	жорсткий
+tour-	подорож
+towards-	по направленню до
+town-	місто
+track-	стежка
+trade-	торгівля
+trade-	торгувати
+tradition-	традиція
+traffic-	рух
+tragedy-	нещастя
+train-	поїзд
+train-	тренуватися
+translate-	переводити
+transparent-	прозорий
+transport-	транспорт
 trap-	капкан
-trap-	задерживать
-travel-	путешествовать
-tread-	наступать
-treat-	обращаться
-treat-	радость
-treatment-	лечение
-trial-	судебный процесс
+trap-	затримувати
+travel-	подорожувати
+tread-	наступати
+treat-	звертатись
+treat-	радість
+treatment-	лікування
+trial-	судовий процес
 trick-	обман
-trick-	обманывать
-trip-	путешествие
-trip-	спотыкаться
-trouble-	беспокойство
+trick-	обманювати
+trip-	подорож
+trip-	зашпоркнутися
+trouble-	стурбованість
 trousers-	брюки
-trust-	верить
-trust-	вера
+trust-	вірити
+trust-	віра
 truth-	правда
-try-	пытаться
-tune-	мелодия
-turn-	очередь
-turn-	поворачивать (ся)
-turn away-	прогонять
-turn back-	обернуться
-turn down-	убавить
-turn into-	превращать во (что-л.)
-turn off-	сворачивать
-turn on-	включать
-turn out-	оказаться
-turn over-	переворачивать (ся)
-turn up-	усиливать
-twist-	крутить
+try-	намагатися
+tune-	мелодія
+turn-	черга
+turn-	повертатися
+turn away-	проганяти
+turn back-	обернутися
+turn down-	вбивати
+turn into-	перетворювати в
+turn off-	згортати
+turn on-	вмикати
+turn out-	виявлятися
+turn over-	перевертатися
+turn up-	посилювати
+twist-	крутити
 type-	тип
-typical-	типичный
-unable-	неспособный
-uncertain-	неопределенный
-uncomfortable-	неудобный
+typical-	типовий
+unable-	нездатний
+uncertain-	невизначений
+uncomfortable-	незручний
 under-	вниз
 under-	при
 underneath-	вниз
 underneath-	вниз
-understand-	понимать
-undo-	развязывать
-unfair-	несправедливый
-unfortunate-	неудачливый
+understand-	розуміти
+undo-	розвязувати
+unfair-	несправедливий
+unfortunate-	неудачливий
 unhappy-	несчастливый
 uniform-	форма
-union-	объединение
-unit-	часть
-unite-	соединять (ся)
-university-	университет
-unkind-	злой
-unless-	если не
-unlikely-	маловероятный
-unlucky-	несчастливый
-unpleasant-	неприятный
+union-	обьеднання
+unit-	частина
+unite-	зєднуватись
+university-	університет
+unkind-	злий
+unless-	якщо не
+unlikely-	неправдоподібний
+unlucky-	нещасливий
+unpleasant-	неприємний
 until-	до
-unusual-	необычный
-up-	вверх
+unusual-	незвичний
+up-	вгору
 upon = on-	на
-upset-	расстроенный
-upstairs-	вверх
-upwards-	снизу – вверх
-urgent-	срочный
+upset-	засмучений
+upstairs-	нагорі
+upwards-	вгору
+urgent-	терміново
 us-	нас
-use-	употребление
-use-	использовать
-used-	подержанный
-usual-	обыкновенный
-usually-	обычно
-valuable-	ценный
-value-	ценность
-vanish-	исчезать
-variety-	разновидность
-various-	различный
-very-	очень
-view-	точка зрения
-violence-	жестокость
-violent-	насильственный
-vision-	зрение
-visit-	навещать
-visit-	посещение
+use-	використовувати-
+use-	використовувати-
+used-	використаний
+usual-	звичайний
+usually-	зазвичай
+valuable-	цінний
+value-	цінність
+vanish-	зникати
+variety-	різноманітність
+various-	різноманітний
+very-	дуже
+view-	вид
+violence-	насильство
+violent-	насильницький
+vision-	бачення
+visit-	візит
+visit-	візит
 voice-	голос
-vote-	голосование
-wait-	ждать
-wake-	просыпаться
-walk-	прогулка
-walk-	гулять
-wall-	стена
-wander-	бродить
-want-	хотеть
-war-	война
-warm-	теплый
-warn-	предупреждать
-warning-	предупреждение
-wash-	мыть (ся)
-wash-	мытье
-waste-	тратить
-waste-	излишняя трата
-watch-	наблюдать
-watch-	часы (наручные)
+vote-	голосувати
+wait-	чекати
+wake-	пробуджувати
+walk-	ходити
+walk-	ходити
+wall-	стіна
+wander-	мандрувати
+want-	хочу
+war-	війна
+warm-	теплий
+warn-	попереджати
+warning-	попередження
+wash-	мити (ся)
+wash-	миття
+waste-	витрачати
+waste-	зайва трата
+watch-	спостерігати
+watch-	годинник (наручні)
 water-	вода
-wave-	махать
-wave-	волна
+wave-	махати
+wave-	хвиля
 way-	дорога
-we-	мы
-weak-	слабый
-wealth-	богатство
-wear-	носить (одежду)
+we-	ми
+weak-	слабкий
+wealth-	багатство
+wear-	носити (одяг)
 weather-	погода
-week-	неделя
-weekend-	выходные дни
-weigh-	весить
-welcome-	желанный
-welcome-	приветствовать
-well-	хорошо
-well-	здоровый
-wet-	мокрый
-what-	что
-whatever-	все что
+week-	тиждень
+weekend-	вихідні дні
+weigh-	важити
+welcome-	бажаний
+welcome-	вітати
+well-	добре
+well-	здоровий
+wet-	мокрий
+what-	що
+whatever-	незалежно
 wheel-	колесо
-when-	когда
-whenever-	всякий раз когда
-where-	где
-wherever-	где бы ни
-whether-	ли
-which-	который
-whichever-	какой угодно
-while-	пока
-whisper-	шептать
-whistle-	свистеть
+when-	коли
+whenever-	щоразу коли
+where-	де
+wherever-	де б не
+whether-	чи
+which-	який
+whichever-	навіть дуже
+while-	поки
+whisper-	шепотіти
+whistle-	свистіти
 whistle-	свисток
-who-	кто
-whoever-	кто бы ни
+who-	хто
+whoever-	хоч би хто
 whole-	весь
 whom-	кого
-why-	почему
+why-	чому
 wide-	широкий
 wide-	широко
 wild-	дикий
-will-	завещание
-will-	выражает обещание
-willing-	готовый (сделать что-л.)
-win-	победить
-wind-	ветер
-wind-	виться
-window-	окно
-wing-	крыло
+will-	заповіт
+will-	висловлює обіцянку
+willing-	готовий (зробити що-л.)
+win-	перемогти
+wind-	вітер
+wind-	витися
+window-	вікно
+wing-	крило
 winter-	зима
-wipe-	вытирать
-wire-	проволока
-wise-	мудрый
-wish-	желание
-wish-	желать
-with-	с
-within-	внутри
+wipe-	витирати
+wire-	дріт
+wise-	мудрий
+wish-	бажання
+wish-	бажати
+with-	з
+within-	всередині
 without-	без
-woman-	женщина
-wonder-	удивляться
+woman-	жінка
+wonder-	дивуватися
 word-	слово
-work-	работа
-work-	работать
-work on-	продолжать работать
-work out-	решать
-work up to-	отрабатывать
-world-	мир
-worried-	озабоченный
-worry-	беспокоить (ся)
-worse-	худший
-worst-	наихудший
-worth-	стоящий
-worth-	цена
-would-	выражает желание
-wrap-	заворачивать
-write-	писать
-wrong-	неправильный
-year-	год
-yes-	да
-yesterday-	вчера
-yet-	еще
-you-	ты
-young-	молодой
+work-	робота
+work-	працювати
+work on-	продовжувати працювати
+work out-	вирішувати
+work up to-	відпрацьовувати
+world-	світ
+worried-	стурбований
+worry-	беспоко ть (ся)
+worse-	найгірший
+worst-	найгірший
+worth-	стоїть
+worth-	ціна
+would-	виражає бажання
+wrap-	загортати
+write-	писати
+wrong-	неправильний
+year-	рік
+yes-	та
+yesterday-	вчора
+yet-	ще
+you-	ти
+young-	молодий
 your-	ваш
 yours-	ваш
-yourself-	себя
-zero-	ноль
-was-быть
+yourself-	себе
+zero-	нуль
+was-бути
