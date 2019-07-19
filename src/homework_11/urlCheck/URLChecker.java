@@ -7,12 +7,15 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.HashMap;
 import java.util.Set;
+import java.util.logging.Logger;
 
 /**
  *
  * @author YBolshakova
  */
 public class URLChecker {
+    
+    public static final Logger LOGGER = Logger.getLogger(URLChecker.class.getName());
 
     private String path;
     private HashMap<String, String> urlMap;
@@ -46,8 +49,9 @@ public class URLChecker {
                 return "Inaccessible - URL " + connection.getResponseMessage();
             }
         } catch (IOException ex) {
-            return "URL " + urlAdress + " Inaccessible ";
+            LOGGER.warning( "URL " + urlAdress + " Inaccessible ");
         }
+        return "Inaccessible - URL ";
     }
 
     public HashMap<String, String> readURL() {
@@ -58,7 +62,7 @@ public class URLChecker {
                 urlMap.put(line, checkURL(line));
             }
         } catch (IOException ex) {
-            System.out.println(ex.getMessage());
+            LOGGER.warning(ex.getMessage());
         }
         return urlMap;
     }
