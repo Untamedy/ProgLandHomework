@@ -1,10 +1,8 @@
 package homework_11.linksSearcher;
 
-import com.sun.corba.se.impl.util.Version;
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -12,7 +10,6 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.logging.Level;
 import java.util.logging.Logger;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -65,12 +62,12 @@ public class Searcher {
     }
 
     public List<String> parsPage() {
+        ArrayList<String> links = new ArrayList<String>();
         HttpURLConnection connection = connect();
         String httpcontent = getContent(connection);
         String regex = "(https?|ftp|file)://[-a-zA-Z0-9+&@#/%?=~_|!:,.;]*[-a-zA-Z0-9+&@#/%=~_|]";
         Pattern linkPattern = Pattern.compile(regex, Pattern.CASE_INSENSITIVE | Pattern.DOTALL);
-        Matcher pageMatcher = linkPattern.matcher(httpcontent);
-        ArrayList<String> links = new ArrayList<String>();
+        Matcher pageMatcher = linkPattern.matcher(httpcontent);        
         while (pageMatcher.find()) {
             links.add(pageMatcher.group());
         }
