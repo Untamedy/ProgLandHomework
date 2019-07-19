@@ -1,6 +1,7 @@
 package homework_10.translator;
 
 import java.util.HashMap;
+import java.util.TreeMap;
 
 
 /**
@@ -13,7 +14,7 @@ public class Main {
         String to = "folderOne\\Ukranian.out.txt";
         
         DictionaryCreator creater = new DictionaryCreator("folderOne\\dictionary.txt");
-        HashMap<String, String> map =  creater.reader();       
+        TreeMap<String, String> map =  creater.readDictionary();       
         
         creater.addNewWord("supper", "супер");
         

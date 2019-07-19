@@ -6,6 +6,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.HashMap;
+import java.util.TreeMap;
 
 
 
@@ -15,7 +16,7 @@ import java.util.HashMap;
  */
 public class Translator {
     
-    private HashMap<String,String> dictionary;
+    private TreeMap<String,String> dictionary;
     private String pathFrom;
     private String pathTo;
     
@@ -23,7 +24,7 @@ public class Translator {
         
     }
     
-    public Translator(HashMap<String, String> dictionary, String pathFrom, String pathTo){
+    public Translator(TreeMap<String, String> dictionary, String pathFrom, String pathTo){
         this.dictionary=dictionary;
         this.pathFrom = pathFrom;
         this.pathTo = pathTo;
