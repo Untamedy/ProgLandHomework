@@ -24,17 +24,19 @@ public class URLChecker {
     public URLChecker(String path) {
         this.path = path;
     }
-    
-    public void check(){
-      HashMap<String,String> map =  readURL();
-        Set<String> keys = map.keySet();
-        for(String s: keys){
-            System.out.println(s + " - " + map.get(s));            
-        }  
+
+    public void check() {
+        HashMap<String, String> map = readURL();
+        Set<String> keys = map.keySet(); 
+        
+        keys.forEach((s)->{
+            System.out.println(s + " - " + map.get(s));
+        });        
+        
     }
 
     public String checkURL(String urlAdress) {
-        try {            
+        try {
             URL url = new URL(urlAdress);
             HttpURLConnection connection = (HttpURLConnection) url.openConnection();
             int responseCode = connection.getResponseCode();
@@ -44,7 +46,7 @@ public class URLChecker {
                 return "Inaccessible - URL " + connection.getResponseMessage();
             }
         } catch (IOException ex) {
-            return "URL " + urlAdress +" Inaccessible ";
+            return "URL " + urlAdress + " Inaccessible ";
         }
     }
 
@@ -53,10 +55,10 @@ public class URLChecker {
         String line = "";
         try (BufferedReader reader = new BufferedReader(new FileReader(path))) {
             while ((line = reader.readLine()) != null) {
-                urlMap.put(line, checkURL(line));            }
-        } catch (IOException ex) {  
+                urlMap.put(line, checkURL(line));
+            }
+        } catch (IOException ex) {
             System.out.println(ex.getMessage());
-
         }
         return urlMap;
     }
