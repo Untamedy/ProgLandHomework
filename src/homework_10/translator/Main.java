@@ -15,7 +15,7 @@ public class Main {
         DictionaryCreator creater = new DictionaryCreator("folderOne\\dictionary.txt");
         HashMap<String, String> map =  creater.reader();       
         
-        creater.addNewWord("was", "бути");
+        creater.addNewWord("supper", "супер");
         
         Translator t = new Translator(map, from, to);
         t.translate();
