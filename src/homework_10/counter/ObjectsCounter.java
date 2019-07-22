@@ -32,7 +32,7 @@ public class ObjectsCounter<T>{
     
     
 
-    public Map<T, Integer > count(List<Object> objects) {
+    public Map<T, Integer > count(List<T> objects) {
         result = new HashMap<>();       
         for (Object t : objects) {
             Integer quantity = result.get(t);
