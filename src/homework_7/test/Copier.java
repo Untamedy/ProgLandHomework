@@ -12,34 +12,21 @@ public class Copier {
 
     public static final Logger logger = Logger.getLogger(CopierWithLoaderController.class.getName());
 
-    private String readFrom;
-    private String writeTo;
-    private byte[] readBytes = null;
-    private Integer size = 0;
-    private boolean stop = true;
-    public Object readerLock;
-    public Object writerLock;
-    public Object loaderLock;
-    int readSize = 0;
+    private volatile byte[] readBytes = null;
+    private boolean change = false;
+    private boolean stop = false;
+    private volatile int loadsize = 0;
+    private int fileSize = 0;
 
     public Copier() {
-
     }
 
-    public Copier(String readFrom, String writeTo, Object readerLock, Object writerLock, Object loaderLock) {
-        this.readerLock = readerLock;
-        this.writerLock = writerLock;
-        this.loaderLock = loaderLock;
-        this.readFrom = readFrom;
-        this.writeTo = writeTo;
+    public boolean isChange() {
+        return change;
     }
 
-    public String getReadFrom() {
-        return readFrom;
-    }
-
-    public String getWriteTo() {
-        return writeTo;
+    public void setChange(boolean change) {
+        this.change = change;
     }
 
     public boolean isStop() {
@@ -50,83 +37,63 @@ public class Copier {
         this.stop = stop;
     }
 
-    public int getReadSize() {
-        return readSize;
-    }
-
-    public void setSize(int size) {
-        this.size = size;
-    }
-
-    public byte[] getReadBytes() {
-        return readBytes;
-    }
-
-    /* public List<Thread> init() {
-        List<Thread> list = new ArrayList<>();
-        list.add(new Reader(this, readerLock, loaderLock));
-        list.add(new Loader(this, loaderLock, writerLock));
-        list.add(new Writer(this, writerLock, readerLock));
-        return list;
-    }*/
-
- /* public void copy() {
-        List<Thread> list = init();
-        list.forEach((t) -> {
-            t.start();
-        });
-
-    }*/
-    public byte[] getReadBytesForWrite() {
+    public synchronized byte[] getReadBytesForWrite() {
+        logger.info("Writer assign value " + Thread.currentThread().getName());
         byte[] tmp = null;
-        for (; readBytes == null;) {
-            synchronized (writerLock) {
-                try {
-                    logger.info("Writer wait " + Thread.currentThread().getName());
-
-                    writerLock.wait();
-
-                    logger.info("Writer wakeUp " + Thread.currentThread().getName());
-                } catch (InterruptedException ex) {
-                    logger.severe(ex.getMessage());
-                }
+        for (; !change;) {
+            try {
+                wait();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Copier.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
-        logger.info("Writer assign value " + Thread.currentThread().getName());
         tmp = this.readBytes;
         this.readBytes = null;
+        change = false;
+        notifyAll();
         return tmp;
     }
 
-    public void setReadBytes(byte[] readBytes) {
-        if (this.readBytes != null) {
-            synchronized (readerLock) {
-                try {
-                    readerLock.wait();
-                } catch (InterruptedException ex) {
-                    Logger.getLogger(Copier.class.getName()).log(Level.SEVERE, null, ex);
-                }
+    public synchronized void setReadBytes(byte[] readBytes) {
+        for (; change;) {
+            try {
+                wait();
+            } catch (InterruptedException ex) {
+                Logger.getLogger(Copier.class.getName()).log(Level.SEVERE, null, ex);
             }
         }
         this.readBytes = readBytes;
+        change = true;
+        notifyAll();
     }
 
-    public int getReadSizeforLoad() {
-        for (; size == 0;) {
-            try {
-                logger.info("Loader wait " + Thread.currentThread().getName());
-                synchronized (loaderLock) {
-                    loaderLock.wait();
+    public synchronized int getSize() {
+        for (; loadsize == 0;) {
+            if (!isStop()) {
+                try {
+                    wait();
+                } catch (InterruptedException ex) {
+                    Logger.getLogger(Copier.class.getName()).log(Level.SEVERE, null, ex);
                 }
-
-                logger.info("Loader wakeUp " + Thread.currentThread().getName());
-            } catch (InterruptedException ex) {
-                logger.severe(ex.getMessage());
+            } else {
+                return loadsize;
             }
         }
-        logger.info("Loader assign value " + Thread.currentThread().getName());
-        readSize = size;
-        size = 0;
-        return readSize;
+        int newSize = loadsize;
+        loadsize = 0;
+        return newSize;
     }
+
+    public void setLoadsize(int loadsize) {
+        this.loadsize = loadsize;
+    }
+
+    public int getFileSize() {
+        return fileSize;
+    }
+
+    public void setFileSize(int fileSize) {
+        this.fileSize = fileSize;
+    }
+
 }

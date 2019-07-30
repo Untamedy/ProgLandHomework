@@ -40,7 +40,12 @@ public class LoaderController extends Thread {
     @Override
     public void run() {
         while (percentage < 100) {
-            countLoadPercentage();
+            try {
+                countLoadPercentage();
+                sleep(1000);
+            } catch (InterruptedException ex) {
+                Logger.getLogger(LoaderController.class.getName()).log(Level.SEVERE, null, ex);
+            }
         }
 
     }

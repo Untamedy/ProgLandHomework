@@ -16,8 +16,8 @@ public class CopierWithLoaderController {
     private String readFrom;
     private String writeTo;
     private byte[] readBytes = null;
-    private Integer size = 0;
-    private boolean stop = true;
+    private volatile Integer size = 0;
+    private boolean stop = false;
     public Object readerLock = new Object();
     public Object writerLock = new Object();
     public Object loaderLock = new Object();
@@ -58,7 +58,7 @@ public class CopierWithLoaderController {
     public List<Thread> init() {
         List<Thread> list = new ArrayList<>();
         list.add(new FileReader(this));
-        list.add(new LoaderController(this));
+        //list.add(new LoaderController(this));
         list.add(new FileWriter(this));
         return list;
     }
@@ -97,7 +97,6 @@ public class CopierWithLoaderController {
     }
 
     public void setReadBytes(byte[] readBytes) {
-
         for (; this.readBytes != null;) {
             try {
                 logger.info("Reader wait " + Thread.currentThread().getName());

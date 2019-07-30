@@ -27,16 +27,15 @@ public class FileWriter extends Thread {
     }
 
     public void writeToFile() {
-        try (FileOutputStream writer = new FileOutputStream(writeTo, false)) {
-            while (copier.isStop()) {
+        try (FileOutputStream writer = new FileOutputStream(writeTo, false)) {            
                 byte[] toWrite;
                 toWrite = copier.getReadBytesForWrite();
                 writer.write(toWrite);
-                synchronized (copier.loaderLock) {
-                    copier.loaderLock.notifyAll();
+                synchronized (copier.readerLock) {
+                    copier.readerLock.notify();
                 }
                 logger.info("Writer write to file");
-            }
+            
             logger.info("Writer stop");
         } catch (IOException ex) {
             logger.severe(ex.getMessage());
@@ -46,8 +45,10 @@ public class FileWriter extends Thread {
 
     @Override
     public void run() {
-
-        writeToFile();
+        while(!copier.isStop()){            
+            writeToFile(); 
+        }
+       
 
     }
 

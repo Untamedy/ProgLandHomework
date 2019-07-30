@@ -22,16 +22,15 @@ public class FileReader extends Thread {
     }
 
     public void read() {
-        try (FileInputStream reader = new FileInputStream(readFrom)) {
-
+        try (FileInputStream reader = new FileInputStream(readFrom)) {           
             byte[] buffer = new byte[100];
             while ((reader.read(buffer)) != -1) {
                 logger.info("Reader read from file");                
-                copier.setSize(buffer.length); 
+               //copier.setSize(buffer.length); 
                 copier.setReadBytes(buffer);                               
                 buffer = new byte[100];
             }
-            copier.setStop(false);           
+            copier.setStop(true);           
             logger.info("Reader is stoped");
         } catch (IOException e) {
             logger.warning(e.getMessage());
