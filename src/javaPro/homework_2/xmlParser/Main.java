@@ -19,6 +19,7 @@ public class Main {
 
         parser.saveObject();
         parser.addNewTrain(new Train(8889, "NY", "CA", new Date()));
+        
         TimeTable newTimeTable = (TimeTable) parser.getObject(TimeTable.class);
 
         List<Train> byDate = parser.parsByDate(new Date(System.currentTimeMillis() - 7200000), new Date(System.currentTimeMillis() + 7200000));
