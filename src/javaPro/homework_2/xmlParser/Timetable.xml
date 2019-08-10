@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<timetable>
+    <trains>
+        <trains id="36">
+            <from>278243585</from>
+            <to>489418922</to>
+            <date>2019-08-10T19:41:42.500+03:00</date>
+        </trains>
+        <trains id="75">
+            <from>-1824809402</from>
+            <to>-27859099</to>
+            <date>2019-08-10T20:41:42.501+03:00</date>
+        </trains>
+        <trains id="30">
+            <from>-613995379</from>
+            <to>-257718853</to>
+            <date>2019-08-10T22:41:42.501+03:00</date>
+        </trains>
+        <trains id="62">
+            <from>-642565773</from>
+            <to>-2101256990</to>
+            <date>2019-08-11T02:41:42.501+03:00</date>
+        </trains>
+        <trains id="6">
+            <from>-867989423</from>
+            <to>-475434458</to>
+            <date>2019-08-11T10:41:42.501+03:00</date>
+        </trains>
+        <trains id="42">
+            <from>327276978</from>
+            <to>-1306286195</to>
+            <date>2019-08-12T02:41:42.501+03:00</date>
+        </trains>
+        <trains id="19">
+            <from>-1690709168</from>
+            <to>-1513985153</to>
+            <date>2019-08-13T10:41:42.501+03:00</date>
+        </trains>
+        <trains id="71">
+            <from>1849695795</from>
+            <to>1693117124</to>
+            <date>2019-08-16T02:41:42.501+03:00</date>
+        </trains>
+        <trains id="25">
+            <from>933345852</from>
+            <to>1153596349</to>
+            <date>2019-08-21T10:41:42.501+03:00</date>
+        </trains>
+        <trains id="8">
+            <from>-1421241704</from>
+            <to>-1608901510</to>
+            <date>2019-09-01T02:41:42.501+03:00</date>
+        </trains>
+        <trains id="8889">
+            <from>NY</from>
+            <to>CA</to>
+            <date>2019-08-10T18:41:42.599+03:00</date>
+        </trains>
+    </trains>
+</timetable>
