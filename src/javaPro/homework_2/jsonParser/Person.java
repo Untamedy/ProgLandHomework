@@ -1,5 +1,7 @@
 package javaPro.homework_2.jsonParser;
 
+import java.util.Arrays;
+
 /**
  *
  * @author YBolshakova
@@ -66,16 +68,11 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" + "name=" + name + ", surname=" + surname + ", phones=" + arrayToString(phones) + ", sites=" + arrayToString(sites) + ", address=" + address.toString() + '}';
+        return "Person{" + "name=" + name + ", surname=" + surname + ", phones=" + Arrays.toString(phones) + "sites=" + Arrays.toString(sites) +                
+                "," +address.toString() + '}';
     }
     
-    private String arrayToString(String [] array){
-        String arrayToString = "";
-        for(String s: array){
-            arrayToString += s+",";
-        }
-        return arrayToString;
-    }
+   
     
 
 }

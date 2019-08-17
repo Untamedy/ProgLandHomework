@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<exchangerates>
+    <row>
+        <exchangerate ccy="one" basy_ccy="two" buy="12.5" sale="13.5"/>
+    </row>
+    <rows>
+        <exchangerate ccy="one" basy_ccy="two" buy="12.5" sale="13.5"/>
+    </rows>
+</exchangerates>
