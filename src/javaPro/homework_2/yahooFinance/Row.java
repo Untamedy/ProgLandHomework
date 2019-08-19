@@ -26,11 +26,4 @@ public class Row {
         this.exchangerate = exchangerate;
     }
 
-    @Override
-    public String toString() {
-        return "Row{" + "exchangerate=" + exchangerate.toString() + '}';
-    }
-    
-    
-
 }

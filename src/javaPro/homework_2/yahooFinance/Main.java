@@ -36,10 +36,12 @@ public class Main {
             JAXBContext context = JAXBContext.newInstance(Exchangerates.class, Exchangerate.class);
             Unmarshaller unmarshaller = context.createUnmarshaller();
             exchangerates = (Exchangerates) unmarshaller.unmarshal(connection.getInputStream());
+            connection.disconnect();
 
         } catch (JAXBException | IOException ex) {
            LOGGER.warning(ex.getMessage());
         }
+        
         return exchangerates;
     }
 
